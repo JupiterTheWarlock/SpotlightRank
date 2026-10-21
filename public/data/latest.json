@@ -69,9 +69,9 @@
     "code": "spotlightgamejam2026",
     "is_custom_code": true
   },
-  "startedAt": 1792586114387,
-  "fetchedAt": 1792586149831,
-  "previousAt": 1792576442504,
+  "startedAt": 1792586223792,
+  "fetchedAt": 1792586262002,
+  "previousAt": 1792586149831,
   "expectedCount": 2263,
   "missingStats": 0,
   "categories": [
@@ -180,7 +180,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -247,14 +247,14 @@
       "title": "一针一线绣江南",
       "icon": "https://img-tc.tapimg.com/market/images/FvUml3ritD2BnsPcFOLNHli8jG3H.png/_tap_appicon_m.jpg",
       "description": "开一间江南小绣坊：客人上门下单，你挑料子、裁衣裳、缝线、一针一针亲手刺绣，给街坊做衣裳，也给自己做一身换着穿。宋代江南小镇，你接手了外婆留下的绣坊。街坊们推门进来，不会直说想要什么，只讲自己的...",
-      "heat": 35431,
-      "fans": 32950,
+      "heat": 35435,
+      "fans": 32953,
       "rating": 9.4,
       "reviews": 143,
       "officialRank": 4,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 360,
+      "growth": 4,
       "categories": [
         1,
         2,
@@ -280,7 +280,7 @@
       "officialRank": 31,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 42,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -300,14 +300,14 @@
       "title": "逆种",
       "icon": "https://img-tc.tapimg.com/market/images/Fgq8cbdvzp_yMknKkKxYD3zYz2ye.png/_tap_appicon_m.jpg",
       "description": "俯视角快节奏近战动作 Roguelite。你的打法就是自然选择——5 层进化的终点，最终 Boss「逆种」是你亲手培育的克星。",
-      "heat": 8178,
-      "fans": 7551,
+      "heat": 8179,
+      "fans": 7552,
       "rating": 9.5,
       "reviews": 33,
       "officialRank": 12,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 73,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -386,7 +386,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -436,7 +436,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -538,7 +538,7 @@
       "officialRank": 77,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -564,7 +564,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -590,7 +590,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -765,7 +765,7 @@
       "officialRank": 58,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 33,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -814,7 +814,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -941,7 +941,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1020,7 +1020,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1046,7 +1046,7 @@
       "officialRank": 36,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -1093,7 +1093,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 23,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1119,7 +1119,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -1143,7 +1143,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1192,7 +1192,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1244,7 +1244,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1445,7 +1445,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1523,7 +1523,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1598,7 +1598,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -1723,7 +1723,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1769,14 +1769,14 @@
       "title": "TRS实况铁路模拟",
       "icon": "https://img-tc.tapimg.com/market/images/FpPj8arCh8z3hTZ5j97bVxTOxw2k.png/_tap_appicon_m.jpg",
       "description": "驾驶六款架空车队，穿越星澜群域，在铁路运营与自由试验中体验“涌现”。【普通模式·十站山海干线】星汐—天池线路约88.9公里，保留星汐、岚港、榆岑、镜澜、云湾五站，新增翠川、石门、云脊、松岚、天池五...",
-      "heat": 12576,
-      "fans": 12466,
+      "heat": 12583,
+      "fans": 12471,
       "rating": 8.8,
       "reviews": 37,
       "officialRank": 6,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 267,
+      "growth": 7,
       "categories": [
         1,
         2,
@@ -1854,7 +1854,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -1878,7 +1878,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -1897,14 +1897,14 @@
       "title": "以太残响",
       "icon": "https://img-tc.tapimg.com/market/images/f63102715fe0fbd7ad74f7ae7383ab5a.png/_tap_appicon_m.jpg",
       "description": "黄沙漫天的废土末日里，这款2D俯视角像素风肉鸽塔防超带感！亲手搭起专属防线，解锁各式随机肉鸽增益，硬扛一波接一波的怪物冲击死守生存据点，每开一局都是全新的末日生存挑战，新鲜感拉满，越玩越上头！",
-      "heat": 256,
-      "fans": 214,
+      "heat": 258,
+      "fans": 215,
       "rating": 9.3,
       "reviews": 12,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 31,
+      "growth": 2,
       "categories": [
         1,
         5
@@ -2055,7 +2055,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2075,13 +2075,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/Fox2RG560m8VzDJ49PLOwaxaoslv.png/_tap_appicon_m.jpg",
       "description": "从一块田开始，把小小农场经营成忙碌的自动化田园。播种、浇水、收获，积攒金币升级作物，雇用机器人分担农活，再把农场逐步扩展。看着作物成熟、机器人来回忙碌，享受收益不断增长的满足感。重置世界，收获传承...",
       "heat": 141,
-      "fans": 119,
+      "fans": 120,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 22,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2188,7 +2188,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2346,7 +2346,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2366,14 +2366,14 @@
       "title": "灵涌",
       "icon": "https://img-tc.tapimg.com/market/images/FmyNwz8AsIUm-sL1X7cWq9-mhzT9.jpg/_tap_appicon_m.jpg",
       "description": "请注意！你只是实习天道！《灵涌》是一款修仙题材的涌现式沙盒。往山河间撒下凡人，看他们自己寻灵根、打坐破境、金丹开宗；看成百上千个渺小人生彼此纠缠，宗门林立、道统兴衰、魔修出世、雷劫飞升——没有一句写...",
-      "heat": 56544,
-      "fans": 50998,
+      "heat": 56546,
+      "fans": 51002,
       "rating": 9.5,
       "reviews": 481,
       "officialRank": 2,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 234,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -2399,7 +2399,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2599,7 +2599,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -2621,7 +2621,7 @@
       "officialRank": 83,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2672,7 +2672,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2718,13 +2718,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/FvaIaDTBGFvlwXRpDZGVPaZj2qoV.png/_tap_appicon_m.jpg",
       "description": "《枪破黎明：射线突围》是一款第一人称视角的单机动作射击游戏，可以在游戏中打怪物，正在开发幸存者和搜打撤等模式。（本游戏内含有使用 AI 生成的游戏资产）",
       "heat": 207,
-      "fans": 756,
+      "fans": 759,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -2765,14 +2765,14 @@
       "title": "我在修仙界开工厂",
       "icon": "https://img-tc.tapimg.com/market/images/FlpomWqKJ4L5xJXUUe8yWJKc80DY.png/_tap_appicon_m.jpg",
       "description": "这是一款修仙题材的自动化建造游戏。从徒手挖下第一块玄铁矿开始，铺采集阵、建熔炉、通物流，把整片洞天变成会自己运转的工厂；再把物品里的灵气炼成修为，突破境界，解锁更深一层的自动化。多张洞天福地待你逐层探...",
-      "heat": 488,
-      "fans": 416,
+      "heat": 489,
+      "fans": 417,
       "rating": 9.8,
       "reviews": 7,
       "officialRank": 95,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 34,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -2798,7 +2798,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         4,
@@ -2823,7 +2823,7 @@
       "officialRank": 86,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3024,7 +3024,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -3149,7 +3149,7 @@
       "officialRank": 49,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 34,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3175,7 +3175,7 @@
       "officialRank": 21,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 43,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3303,7 +3303,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3478,7 +3478,7 @@
       "officialRank": 34,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 43,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3504,7 +3504,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3583,7 +3583,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -3681,7 +3681,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -3731,7 +3731,7 @@
       "officialRank": 40,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -3956,7 +3956,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -4029,7 +4029,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4055,7 +4055,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4081,7 +4081,7 @@
       "officialRank": 7,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4130,7 +4130,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4287,7 +4287,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -4337,7 +4337,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         4,
@@ -4386,7 +4386,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4517,7 +4517,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4570,7 +4570,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -4593,7 +4593,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4743,7 +4743,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -4766,7 +4766,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4935,7 +4935,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -4987,7 +4987,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         4,
@@ -5035,7 +5035,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5083,11 +5083,11 @@
       "heat": 49,
       "fans": 51,
       "rating": 9.7,
-      "reviews": 9,
+      "reviews": 10,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5153,14 +5153,14 @@
       "title": "我真没让他们建城啊！",
       "icon": "https://img-tc.tapimg.com/market/images/FsNF_6jIjuxCdtOmzo4gtOCPX3We.png/_tap_appicon_m.jpg",
       "description": "你不能建造任何东西，只能改变环境——然后眼睁睁看着 20 只小豆人自己走出道路、长出村庄和市场、点亮灯火、造出机器，甚至有一天抬起头，想造一座塔爬上来看看你。",
-      "heat": 8703,
-      "fans": 7945,
+      "heat": 8705,
+      "fans": 7948,
       "rating": 7,
       "reviews": 26,
       "officialRank": 11,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 156,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -5212,7 +5212,7 @@
       "officialRank": 61,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5261,7 +5261,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5288,7 +5288,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5367,7 +5367,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5460,14 +5460,14 @@
       "title": "莉耶伊的魔物娘地牢",
       "icon": "https://img-tc.tapimg.com/market/images/Fk-o5QVUHVWK_l4AAkFF2iJIpjWP.jpg/_tap_appicon_m.jpg",
       "description": "在这座魔物娘地牢里，你的身体既是生命，也是战斗的筹码。《Riei的魔物娘地牢》是一款以史莱姆团子为核心的回合制卡牌冒险游戏。受到攻击，身体会散成团子；主动分裂，也能为下一步创造机会。让不同形态的团...",
-      "heat": 419,
+      "heat": 420,
       "fans": 388,
       "rating": 10,
       "reviews": 16,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 29,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -5611,7 +5611,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5689,7 +5689,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5715,7 +5715,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5868,7 +5868,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5920,7 +5920,7 @@
       "officialRank": 82,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5946,7 +5946,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -5973,7 +5973,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -6024,7 +6024,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -6076,7 +6076,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -6223,7 +6223,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -6299,7 +6299,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -6373,7 +6373,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -6399,7 +6399,7 @@
       "officialRank": 53,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -6544,14 +6544,14 @@
       "title": "出国归来继承两套公寓",
       "icon": "https://img-tc.tapimg.com/market/images/FjgMq13uh4WSGay31Ite7SrsBzFx.png/_tap_appicon_m.jpg",
       "description": "《出国归来继承两套公寓》是一款房东模拟经营游戏。你海外留学归来，家里把两栋公寓楼交到你手上——江景的云顶阁、城景的星屿公寓。可现实是：楼是毛坯的，能住人的只有三层。从这三层起家，你要做的事很简...",
-      "heat": 9131,
-      "fans": 8586,
+      "heat": 9132,
+      "fans": 8588,
       "rating": 7.8,
       "reviews": 19,
       "officialRank": 10,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 106,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -6776,7 +6776,7 @@
       "officialRank": 66,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -6802,7 +6802,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -6818,14 +6818,14 @@
       "title": "奶茶店传奇",
       "icon": "https://img-tc.tapimg.com/market/images/FuL7CDJZR-IjPRO4CVs3mYbro2XV.png/_tap_appicon_m.jpg",
       "description": "《奶茶店传奇》是一款结合饮品制作与时间管理的休闲经营游戏。从一杯清爽的柠檬水开始，亲手制作果茶，迎接接连到来的顾客！切好水果、挑选杯子、加入糖和冰，再注水完成饮品。看清订单中的口味、甜度和温度要求，...",
-      "heat": 297,
+      "heat": 298,
       "fans": 306,
       "rating": null,
       "reviews": 4,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -6919,10 +6919,10 @@
       "title": "枕心喵语",
       "icon": "https://img-tc.tapimg.com/market/images/a4df6de91f2a60252686df2bf1faea1e.jpg/_tap_appicon_m.jpg",
       "description": "《枕心喵语》是一款解谜互动向、剧情向小游戏，也是 TapTap 聚光灯 21 天游戏挑战“涌现”主题下的作品。玩家会变身成一只小猫，钻进主人的内心世界，用猫的视角探索、观察、解谜，再一点点拼出完整的故...",
-      "heat": 5,
+      "heat": 7,
       "fans": 39,
       "rating": null,
-      "reviews": 2,
+      "reviews": 3,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
@@ -7020,13 +7020,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/e21796d1a1956e1640709fc91a50c417.png/_tap_appicon_m.jpg",
       "description": "和奶油一起，经营一家开在森林里的甜品店。《森林甜品店》是一款温馨画风的模拟经营小游戏。从第一份蛋糕开始，亲手搭配甜品，招待来店里的客人，一点点把小店经营起来。【做出自己的甜品】挑选底胚、夹心...",
       "heat": 3193,
-      "fans": 3421,
+      "fans": 3422,
       "rating": 9.2,
       "reviews": 29,
       "officialRank": 23,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 34,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7076,7 +7076,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7155,7 +7155,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -7308,7 +7308,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7358,7 +7358,7 @@
       "officialRank": 75,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7458,7 +7458,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7534,7 +7534,7 @@
       "officialRank": 39,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 43,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -7556,7 +7556,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7656,7 +7656,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -7756,7 +7756,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 30,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7834,7 +7834,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -7978,14 +7978,14 @@
       "title": "游子沉默传奇",
       "icon": "https://img-tc.tapimg.com/market/images/FhvHz8g4qJLNYWugCCASEYHxKTnc.png/_tap_appicon_m.jpg",
       "description": "经典沉默版本 × 智能放置挂机，离线收益翻倍，神器特戒自由搭配！",
-      "heat": 3166,
-      "fans": 2634,
+      "heat": 3168,
+      "fans": 2636,
       "rating": 9.9,
       "reviews": 19,
       "officialRank": 24,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 66,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -8004,14 +8004,14 @@
       "title": "多米诺的子弹工厂",
       "icon": "https://img-tc.tapimg.com/market/images/53802806ab32dddcd6dd139ead6a7a7c.png/_tap_appicon_m.jpg",
       "description": "一颗子弹从生产到发射，全新创意塔防游戏！手机端也能玩，PC 端体验更完整ps：本游戏代码全程由AI编写/且本游戏内含有使用 AI 生成的游戏资产",
-      "heat": 103438,
-      "fans": 90141,
+      "heat": 103447,
+      "fans": 90148,
       "rating": 9.3,
       "reviews": 544,
       "officialRank": 1,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 616,
+      "growth": 9,
       "categories": [
         1,
         2,
@@ -8037,7 +8037,7 @@
       "officialRank": 13,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 46,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8089,7 +8089,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8167,7 +8167,7 @@
       "officialRank": 28,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 18,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8291,7 +8291,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8334,14 +8334,14 @@
       "title": "今天孵什么鸟",
       "icon": "https://img-tc.tapimg.com/market/images/FlghGzOEUcBGEelBg725cofdpfiT.png/_tap_appicon_m.jpg",
       "description": "作者假装自己是鸟类爱好者，想养1万种鸟，现在已经有200种啦，一起来放飞吧。",
-      "heat": 3152,
-      "fans": 2964,
+      "heat": 3153,
+      "fans": 2966,
       "rating": 9.9,
       "reviews": 58,
       "officialRank": 26,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 282,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -8391,7 +8391,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -8406,14 +8406,14 @@
       "title": "酒神颂",
       "icon": "https://img-tc.tapimg.com/market/images/4a920952f6ac1172224f020b2d45b166.png/_tap_appicon_m.jpg",
       "description": "名为思想的疫病正在佛罗伦萨蔓延，低语汇成汹涌的暗流，列奥纳多，我们最风雅的贵族，最雍容的艺术家，你将如何抉择：是洞察那些不可名状的疫疾，拥吻你的高贵，还是饮下名为迷狂的鸩毒，挥洒觉醒的浪潮？挥...",
-      "heat": 126,
-      "fans": 134,
+      "heat": 127,
+      "fans": 135,
       "rating": 9.9,
-      "reviews": 16,
+      "reviews": 15,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 28,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -8431,14 +8431,14 @@
       "title": "路网规划师",
       "icon": "https://img-tc.tapimg.com/market/images/FscOGf9i__CSEGBmtye5GtehT7gG.png/_tap_appicon_m.jpg",
       "description": "一款只规划道路、不能控制车辆的城市交通模拟游戏。管预算、修高架、通隧道、解拥堵，看车辆自己选择。",
-      "heat": 133,
+      "heat": 134,
       "fans": 130,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 30,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -8491,7 +8491,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -8614,7 +8614,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8667,7 +8667,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8691,7 +8691,7 @@
       "officialRank": 22,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8744,7 +8744,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8770,7 +8770,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -8842,7 +8842,7 @@
       "officialRank": 19,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 68,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -8914,14 +8914,14 @@
       "title": "史前大陆",
       "icon": "https://img-tc.tapimg.com/market/images/147e093b089450ca619da9834243dd85.png/_tap_appicon_m.jpg",
       "description": "从远古鱼石螈踏上陆地开始……到巨虫口中的始祖野兽……再到恐龙脚下苟活的鼩鼱，你将经历万难。现在，开启你最伟大的演化吧：从与蜥蜴分道扬镳，到点燃世界！",
-      "heat": 134,
-      "fans": 118,
+      "heat": 135,
+      "fans": 119,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 30,
+      "growth": 1,
       "categories": [
         1,
         4
@@ -8945,7 +8945,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9017,7 +9017,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9081,14 +9081,14 @@
       "title": "三国营寨：涌现",
       "icon": "https://img-tc.tapimg.com/market/images/Ft0IU2yF6q9BBVXpeqsZ4Bn5g3GE.png/_tap_appicon_m.jpg",
       "description": "《三国营寨：涌现》是一款汉末题材的模拟经营沙盒。你不是指挥官，而是寨主：发号施令，但寨民听不听、墙破不破、火烧不烧，由他们自己决定。寨里每个人都是活的——他们会饿、会渴、会累、怕死。白天种地伐木、...",
-      "heat": 46,
+      "heat": 47,
       "fans": 48,
       "rating": null,
       "reviews": 2,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -9141,7 +9141,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -9217,7 +9217,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 58,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9433,7 +9433,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9538,7 +9538,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -9560,7 +9560,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 15,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9682,7 +9682,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -9698,13 +9698,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/1221cf84dd14b94127c27ac05418894a.png/_tap_appicon_m.jpg",
       "description": "游戏里，你将扮演一名布衣，携同村二十乡里子弟，踏入这烽烟四起、群英涌现的乱世三国。在这个游戏里，你不再是自带主角光环的名将英雄，也不再是拥兵一方的诸侯列王。你只是在这沉浮与乱世的一名小人物。在这里，每...",
       "heat": 10115,
-      "fans": 9653,
+      "fans": 9654,
       "rating": 8.9,
       "reviews": 91,
       "officialRank": 8,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 90,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9779,7 +9779,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9911,7 +9911,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -9987,7 +9987,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10013,7 +10013,7 @@
       "officialRank": 96,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10062,7 +10062,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10243,7 +10243,7 @@
       "officialRank": 69,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10270,7 +10270,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -10344,7 +10344,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10422,7 +10422,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10447,7 +10447,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10471,7 +10471,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 24,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10649,7 +10649,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10673,7 +10673,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10714,14 +10714,14 @@
       "title": "词条突变",
       "icon": "https://img-tc.tapimg.com/market/images/FmU-2UK1wxH7b60kQqaPjXtvkWC0.png/_tap_appicon_m.jpg",
       "description": "这是一个装备为中心的暗黑挂机刷宝游戏。",
-      "heat": 4416,
+      "heat": 4417,
       "fans": 3341,
       "rating": 8.6,
       "reviews": 47,
       "officialRank": 20,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 23,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -10773,7 +10773,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10946,7 +10946,7 @@
       "officialRank": 32,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 66,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -10992,7 +10992,7 @@
       "icon": "https://img-tc.tapimg.com/market/images/2e2abbe89b674c67400860d8f251479b.png/_tap_appicon_m.jpg",
       "description": "软乎乎的数字猫咪登场啦！这是一款氛围感拉满的治愈系益智游戏，你只要投放数字猫咪，凑齐对应行列与邻域的数量，就能触发梦幻的脉冲消除与连锁反应，指尖轻触就收获满屏软萌的解压快乐。",
       "heat": 5,
-      "fans": 7,
+      "fans": 8,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
@@ -11013,8 +11013,8 @@
       "title": "邪神降世",
       "icon": "https://img-tc.tapimg.com/market/images/FjpeYyQRPJjANnW8kEHOlc1fi_y0.png/_tap_appicon_m.jpg",
       "description": "黑暗中，你再次睁开双眼。亘古的沉睡过后，邪恶的信徒早已将你遗忘，四大王国在圣光笼罩下歌舞升平。而此刻的你，只剩一声微弱的低语。《邪神降世》是一款暗黑题材的策略放置游戏。你将扮演一位苏醒的邪神，...",
-      "heat": 179,
-      "fans": 125,
+      "heat": 180,
+      "fans": 126,
       "rating": null,
       "reviews": 3,
       "officialRank": null,
@@ -11045,7 +11045,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11070,7 +11070,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -11119,7 +11119,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11146,7 +11146,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11243,7 +11243,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -11267,7 +11267,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11293,7 +11293,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -11340,7 +11340,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11416,7 +11416,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11435,14 +11435,14 @@
       "title": "莫奈的花园",
       "icon": "https://img-tc.tapimg.com/market/images/16dfb9b79284df0ade616db3aeb461f7.jpg/_tap_appicon_m.jpg",
       "description": "《莫奈的花园》是一款以花园养成、花色培育和自由造景为核心的休闲游戏。玩家扮演园丁，通过播种、照料和改变环境，让自己的花园在四季与光影中逐渐生长成一幅画。核心玩法是“种花—养花—结种—培育下一代”。...",
-      "heat": 365,
-      "fans": 1005,
+      "heat": 369,
+      "fans": 1010,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 143,
+      "growth": 4,
       "categories": [
         1,
         2,
@@ -11494,7 +11494,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -11540,7 +11540,7 @@
       "officialRank": 42,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11566,7 +11566,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -11606,14 +11606,14 @@
       "title": "生物帝国",
       "icon": "https://img-tc.tapimg.com/market/images/f9418f3c862379c3c86ae8b8a13611f0.jpg/_tap_appicon_m.jpg",
       "description": "你将扮演怀揣科学理想的生物化学博士，因不满头部药企僵化的研发体系毅然辞职创业。从自家车库的简陋实验室起步，你会亲历科研探索的狂热、资本博弈的冷酷、商业运营的繁琐、道德责任的重压。每一个选择都将导向截然...",
-      "heat": 31,
-      "fans": 34,
+      "heat": 32,
+      "fans": 35,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -11639,7 +11639,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -11678,14 +11678,14 @@
       "title": "终焉门廊",
       "icon": "https://img-tc.tapimg.com/market/images/f410b7e6d5eef9ba23fbc3a4477853ab.png/_tap_appicon_m.jpg",
       "description": "如果你无法亲自战胜勇者，那就为他们设计一座无法通过的迷宫吧！《终焉门廊》是一款融合了地块布置、元素反应与策略博弈的游戏。在这里，你需要利用有限的资源布置地块，通过不同元素之间的连锁反应，构建阻...",
-      "heat": 22,
+      "heat": 23,
       "fans": 24,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -11712,7 +11712,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -11736,7 +11736,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11763,7 +11763,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11909,7 +11909,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 17,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11935,7 +11935,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -11959,7 +11959,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12009,7 +12009,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12086,7 +12086,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -12134,7 +12134,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -12157,7 +12157,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12211,7 +12211,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12235,7 +12235,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12353,7 +12353,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 27,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12377,7 +12377,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12449,7 +12449,7 @@
       "officialRank": 72,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12498,7 +12498,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 41,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12548,7 +12548,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12595,7 +12595,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -12641,7 +12641,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12667,7 +12667,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -12690,7 +12690,7 @@
       "officialRank": 27,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12883,7 +12883,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12907,7 +12907,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4,
@@ -12932,7 +12932,7 @@
       "officialRank": 100,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 12,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -12980,7 +12980,7 @@
       "officialRank": 74,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13053,7 +13053,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13129,7 +13129,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13178,7 +13178,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -13224,7 +13224,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -13239,14 +13239,14 @@
       "title": "涌仙天道模拟器",
       "icon": "https://img-tc.tapimg.com/market/images/FqEU1yJNf9uM3iC9oKTzehGO1Z0w.png/_tap_appicon_m.jpg",
       "description": "以天道视角塑造一方仙侠世界：改变灵脉与机缘，看修士自主求生、修炼、结社与渡劫，世界的兴衰由规则因果自行演化。",
-      "heat": 287,
-      "fans": 295,
+      "heat": 288,
+      "fans": 296,
       "rating": null,
       "reviews": 5,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 47,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -13273,7 +13273,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13449,7 +13449,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -13496,7 +13496,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13618,7 +13618,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13669,7 +13669,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -13691,7 +13691,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -13739,7 +13739,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13842,7 +13842,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -13866,7 +13866,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -13889,7 +13889,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13940,7 +13940,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -13990,7 +13990,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14016,7 +14016,7 @@
       "officialRank": 92,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14213,7 +14213,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14239,7 +14239,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         4,
@@ -14264,7 +14264,7 @@
       "officialRank": 94,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14284,13 +14284,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/Fk4obh24iIkVs_hgw-FmX8U_GEZz.png/_tap_appicon_m.jpg",
       "description": "【末日大做饭】如果地球即将在明天毁灭，唯有美食与爱不可辜负。做出美食、探索小镇、与人们交谈、翻冰箱、跑便利店、上山下海，把能吃的都搜刮回来，再加热、冷藏、研磨、烘烤，随手组合成新美食，美食没有配方表...",
       "heat": 1839,
-      "fans": 1794,
+      "fans": 1795,
       "rating": 9.5,
       "reviews": 24,
       "officialRank": 35,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 45,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14361,14 +14361,14 @@
       "title": "胡言胡语",
       "icon": "https://img-tc.tapimg.com/market/images/Frip7HV_3W8nX75h8l_b91RYhx1q.png/_tap_appicon_m.jpg",
       "description": "《胡言胡语》是一款把汉字搬上麻将桌的文字益智游戏。摸牌、出牌、调整字序，把十四张汉字牌组成通顺的句子，就能胡牌！与三位电脑牌友斗智斗嘴，在一本正经和脑洞大开之间，拼出意想不到的表达，还能把胡出的好句子...",
-      "heat": 583,
-      "fans": 565,
+      "heat": 585,
+      "fans": 566,
       "rating": null,
       "reviews": 3,
       "officialRank": 84,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 90,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -14394,7 +14394,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14514,7 +14514,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14560,7 +14560,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -14584,7 +14584,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14656,7 +14656,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -14775,7 +14775,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -14824,7 +14824,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -14849,7 +14849,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -14989,7 +14989,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 26,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15015,7 +15015,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15063,11 +15063,11 @@
       "heat": 22,
       "fans": 60,
       "rating": 10,
-      "reviews": 34,
+      "reviews": 33,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -15131,11 +15131,11 @@
       "heat": 16,
       "fans": 23,
       "rating": 9.7,
-      "reviews": 14,
+      "reviews": 13,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -15158,7 +15158,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -15182,7 +15182,7 @@
       "officialRank": 48,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15256,7 +15256,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 27,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -15307,7 +15307,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15332,7 +15332,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15379,7 +15379,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -15422,14 +15422,14 @@
       "title": "黑潮DarkWave",
       "icon": "https://img-tc.tapimg.com/market/images/5e1a19dfddbbb0c5efb39d6de2c8961a.png/_tap_appicon_m.jpg",
       "description": "一次矿场意外，你失去了意识。醒来时，你已躺在陌生的实验室里，身边只有熟悉的实验室和奇异的细胞。你被要求\"研究\"它们，却不知道自己早已深陷利用。黑潮意外爆发，细胞失控席卷世界。而你能做的唯有收集细胞，搭...",
-      "heat": 5,
-      "fans": 13,
+      "heat": 6,
+      "fans": 14,
       "rating": 10,
       "reviews": 4,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 1,
       "categories": [
         2,
         5
@@ -15504,7 +15504,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15552,7 +15552,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15569,14 +15569,14 @@
       "title": "僵尸列车",
       "icon": "https://img-tc.tapimg.com/market/images/2a3ea28af8d04f6d5b79ff5e37d83a28.png/_tap_appicon_m.jpg",
       "description": "在僵尸横行的世界中，守住列车，开往下一站。《僵尸列车》是一款像素风列车生存游戏。搭配不同车厢与火力，抵御从四面八方涌来的尸潮；在沿途选择遗物、收集资源，并通过科技树升级强化列车。清除铁轨障碍，...",
-      "heat": 47531,
-      "fans": 43275,
+      "heat": 47538,
+      "fans": 43282,
       "rating": 8,
       "reviews": 219,
       "officialRank": 3,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 864,
+      "growth": 7,
       "categories": [
         1
       ],
@@ -15591,14 +15591,14 @@
       "title": "造物锅",
       "icon": "https://img-tc.tapimg.com/market/images/c1a45e32d660a7ac29e44c6d120c423d.png/_tap_appicon_m.jpg",
       "description": "《造物锅》是一款策略造物游戏。玩家将不同材料投入锅中，创造由部件组成的生物，再带它们进入战斗。通过观察战斗结果，玩家可以发现造物的能力与缺陷，并继续改造它们。这口锅中究竟能涌现出多少神奇的造物，由你来...",
-      "heat": 1134,
-      "fans": 1201,
+      "heat": 1135,
+      "fans": 1202,
       "rating": 8.8,
       "reviews": 9,
       "officialRank": 46,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 62,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -15640,13 +15640,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/Fn9qhEUNSsrQQNhRL4Km7OxkOh0Z.png/_tap_appicon_m.jpg",
       "description": "《人生棋局》是一款以「人生」为棋盘的卡牌构筑 Roguelike。你将从一个刚出生的婴儿开始，在有限的生命里做出成千上万次选择 —— 读书还是玩耍？跳槽还是坚守？成家还是独行？【每年三选一，构筑你...",
       "heat": 363,
-      "fans": 329,
+      "fans": 330,
       "rating": null,
       "reviews": 3,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15721,7 +15721,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15772,7 +15772,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -15795,7 +15795,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15822,7 +15822,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15848,7 +15848,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -15870,7 +15870,7 @@
       "officialRank": 52,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15896,7 +15896,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -15915,14 +15915,14 @@
       "title": "雨后防线",
       "icon": "https://img-tc.tapimg.com/market/images/0aee2df8d44e0f6898d00388d9279dba.png/_tap_appicon_m.jpg",
       "description": "这是一款生态塔防游戏，通过搭建生态，让植物自动生长传播来抵御敌人，守护生命之树。",
-      "heat": 18,
+      "heat": 19,
       "fans": 13,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -16091,7 +16091,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -16166,7 +16166,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16192,7 +16192,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -16216,7 +16216,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 29,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16240,7 +16240,7 @@
       "officialRank": 76,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16266,7 +16266,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16317,7 +16317,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16368,7 +16368,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16466,7 +16466,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16485,14 +16485,14 @@
       "title": "孤岛守夜-怪物涌现",
       "icon": "https://img-tc.tapimg.com/market/images/FsatN-mYysVFks7Lyvgj_x0Hg_2Z.png/_tap_appicon_m.jpg",
       "description": "生活的岛屿在夜晚会涌现很多危险的怪物，玩家需要建造自己的堡垒守护自己的家园。新版本已大幅优化性能，和增加简单和困难模式区分。",
-      "heat": 585,
-      "fans": 529,
+      "heat": 586,
+      "fans": 532,
       "rating": null,
       "reviews": 2,
       "officialRank": 81,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 16,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -16544,7 +16544,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -16591,7 +16591,7 @@
       "officialRank": 93,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 15,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16642,7 +16642,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -16665,7 +16665,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -16712,7 +16712,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16787,7 +16787,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16813,7 +16813,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16887,7 +16887,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -16985,7 +16985,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17082,7 +17082,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17131,7 +17131,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17203,7 +17203,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 20,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17271,13 +17271,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/930c85d87df8d6ea84b938b04bea5ea5.png/_tap_appicon_m.jpg",
       "description": "《洪荒：苟道军师》是一款模拟经营策略游戏。十二祖巫会根据部落处境自主行动：缺粮时狩猎捕鱼，玄铁不足时探寻矿脉，也会提出出兵拓土。你每百年有3个行动点，可用于经营、练兵、修炼等，也要决定祖巫请战和外族来...",
       "heat": 968,
-      "fans": 995,
+      "fans": 996,
       "rating": 7.4,
       "reviews": 7,
       "officialRank": 54,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 17,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17381,7 +17381,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17521,14 +17521,14 @@
       "title": "荒野猎手",
       "icon": "https://img-tc.tapimg.com/market/images/FtvWRovEWFSJTh3QXn94f5jR94VD.png/_tap_appicon_m.jpg",
       "description": "踏入群山与密林，开启一场耐心与判断力并重的狩猎之旅。你将在林场、密林、草甸、雪原、峡谷、湿地与高地等猎场中探索，留意足迹、血迹、粪便和折枝等线索，追踪动物行踪。根据环境选择站立、蹲伏或趴伏，观察昼夜与...",
-      "heat": 990,
-      "fans": 953,
+      "heat": 991,
+      "fans": 954,
       "rating": 7.2,
       "reviews": 10,
       "officialRank": 55,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 66,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -17547,14 +17547,14 @@
       "title": "恶灵死吧",
       "icon": "https://img-tc.tapimg.com/market/images/c57e407d6ecfe74f798169d05321fe35.png/_tap_appicon_m.jpg",
       "description": "一个受2048启发的肉鸽战棋游戏",
-      "heat": 165,
-      "fans": 148,
+      "heat": 166,
+      "fans": 149,
       "rating": 5.6,
       "reviews": 6,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -17578,7 +17578,7 @@
       "officialRank": 37,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17650,7 +17650,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17726,7 +17726,7 @@
       "officialRank": 43,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 15,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17752,7 +17752,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17804,7 +17804,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17831,7 +17831,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -17879,7 +17879,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -17901,7 +17901,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -17924,7 +17924,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18099,7 +18099,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18176,7 +18176,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18227,7 +18227,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -18272,7 +18272,7 @@
       "officialRank": 17,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 42,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18296,7 +18296,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18322,7 +18322,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18370,7 +18370,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -18407,14 +18407,14 @@
       "title": "目标是百转成尊",
       "icon": "https://img-tc.tapimg.com/market/images/7bc43e5addf31c94607aba7763a05a47.png/_tap_appicon_m.jpg",
       "description": "踏入蛊师世界，从一只蛊虫开始修行。收集并培养蛊虫、探索险地、挑战试炼，在炼蛊与破境中不断提升实力。每一次成长，都是向“百转成尊”更进一步。",
-      "heat": 139,
-      "fans": 128,
+      "heat": 140,
+      "fans": 129,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 1,
       "categories": [
         1
       ],
@@ -18436,7 +18436,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -18459,7 +18459,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -18550,7 +18550,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18740,14 +18740,14 @@
       "title": "叠着叠着就悟了",
       "icon": "https://img-tc.tapimg.com/market/images/Fm31Y9gWBFTF1AVNmw69YIvYN2-Z.png/_tap_appicon_m.jpg",
       "description": "冒险不一定靠硬拼，也可以靠一句：“我有个想法。”《叠着叠着就悟了》是一款国风卡牌叠合解谜游戏。你将化身游方修士，走进宣纸山水间，探开迷雾、采集材料，观察草木金石的物性，借水火风雷的反应完成委托，...",
-      "heat": 29,
+      "heat": 30,
       "fans": 28,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -18824,7 +18824,7 @@
       "officialRank": 73,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -18877,7 +18877,7 @@
       "officialRank": 5,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19128,7 +19128,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 26,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -19220,7 +19220,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19246,7 +19246,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19320,7 +19320,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -19337,13 +19337,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/79ef26a524510dffb20e4e0fcbe327ca.jpg/_tap_appicon_m.jpg",
       "description": "恭喜你，成功应聘成为一名夜班保安。你的工作地点是一座略显破旧的居民小区。这里的设施有些老化，住户不算太多，偶尔会发生一些难以解释的小事。但请放心，这只是一份普通的工作。你的职责很简单：待在...",
       "heat": 376,
-      "fans": 370,
+      "fans": 372,
       "rating": 8.8,
       "reviews": 6,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 62,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19466,7 +19466,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19493,7 +19493,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19518,7 +19518,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19714,7 +19714,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 19,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19740,7 +19740,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19820,7 +19820,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 17,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -19894,7 +19894,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -20015,7 +20015,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20035,13 +20035,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/8a276cc3cb2c0e48e83e6f14e24af579.jpg/_tap_appicon_m.jpg",
       "description": "神谱未定，万象自生。如果你成为一位神明，你会如何书写自己的神话？在这个世界里，万物皆有神性。你可以是掌控雷霆的战争之神，可以是编织梦境的古老神祇，也可以是一位执掌面包、锈蚀或契约的奇异神明。...",
       "heat": 206,
-      "fans": 181,
+      "fans": 182,
       "rating": null,
       "reviews": 4,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 14,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20067,7 +20067,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -20089,7 +20089,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20114,7 +20114,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20191,7 +20191,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -20264,7 +20264,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 19,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -20286,7 +20286,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 12,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20386,7 +20386,7 @@
       "officialRank": 41,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 29,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20412,7 +20412,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20610,7 +20610,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20636,7 +20636,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -20686,7 +20686,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20759,7 +20759,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -20783,7 +20783,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20827,14 +20827,14 @@
       "title": "当家主母",
       "icon": "https://img-tc.tapimg.com/market/images/FvuQPDpDLnhKdY9LdD-I_Du0MZKr.png/_tap_appicon_m.jpg",
       "description": "自选身份当主母",
-      "heat": 6032,
-      "fans": 5583,
+      "heat": 6033,
+      "fans": 5584,
       "rating": 4.8,
       "reviews": 24,
       "officialRank": 14,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 44,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -20860,7 +20860,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -20910,7 +20910,7 @@
       "officialRank": 44,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -20932,7 +20932,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -20983,7 +20983,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -21005,7 +21005,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21031,7 +21031,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21057,7 +21057,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21285,7 +21285,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21311,7 +21311,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21357,13 +21357,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/Fggt2RK2ZLaMb_0QHkRQtou6B_e2.png/_tap_appicon_m.jpg",
       "description": "⚡ 游戏介绍《电流医生》是一款以电气工程为核心的2D电路解谜游戏。你将扮演一名专业电气工程师，接到来自各行各业的报修订单——从老房子闪烁的灯泡，到工厂跳闸的配电箱，再到数据中心莫名的谐波干扰。每一关...",
       "heat": 4704,
-      "fans": 4371,
+      "fans": 4372,
       "rating": 9.3,
       "reviews": 22,
       "officialRank": 18,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 43,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21532,13 +21532,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/FvDwyhl_2VcpLiPpVuTFAmwtfZlT.png/_tap_appicon_m.jpg",
       "description": "二合、建造类型的休闲小游戏",
       "heat": 29,
-      "fans": 36,
+      "fans": 38,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 17,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21662,7 +21662,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         4,
@@ -21687,7 +21687,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 18,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -21832,7 +21832,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21881,7 +21881,7 @@
       "officialRank": 65,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21927,13 +21927,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/FlQvEnEDJjNiphcdwxmSNNbinMqW.png/_tap_appicon_m.jpg",
       "description": "培养一只台风，靠吞噬海洋资源成长、躲避环境危害、冲击海岸城市，在实时操控下冲击最高 Storm Score。",
       "heat": 478,
-      "fans": 462,
+      "fans": 463,
       "rating": null,
       "reviews": 1,
       "officialRank": 97,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 54,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -21959,7 +21959,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22003,14 +22003,14 @@
       "title": "共生：最后一颗种子",
       "icon": "https://img-tc.tapimg.com/market/images/64b0187320a533cf345038dea71ff6ae.png/_tap_appicon_m.jpg",
       "description": "荒地之上，最后一颗种子仍在生长。《共生：最后一颗种子》是一款手绘风格的横屏生存肉鸽游戏。你将与植物伙伴并肩作战，通过走位躲避敌人，由伙伴自动攻击，并在关键时刻释放主动技能。击败敌人、选择成长属性、...",
-      "heat": 3121,
-      "fans": 2839,
+      "heat": 3122,
+      "fans": 2840,
       "rating": 8.9,
       "reviews": 13,
       "officialRank": 25,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 193,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -22135,7 +22135,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22208,7 +22208,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -22278,7 +22278,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22303,7 +22303,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22449,7 +22449,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22467,14 +22467,14 @@
       "title": "诺贝尔奖系统高中生",
       "icon": "https://img-tc.tapimg.com/market/images/FsloD_4iIE8reSNoXIlnz7nz9_EE.png/_tap_appicon_m.jpg",
       "description": "林凡在高一军训时意外晕倒，获得了诺贝尔奖科学家系统，能与牛顿、爱因斯坦，高斯...等直接对话。他成为学神，也亲自实现了超级AI智能涌现，并带领人类走向未知的远方....",
-      "heat": 175,
-      "fans": 160,
+      "heat": 176,
+      "fans": 162,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 21,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -22598,7 +22598,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22623,7 +22623,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22744,7 +22744,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22820,7 +22820,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22942,7 +22942,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -22966,7 +22966,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         4,
@@ -23038,7 +23038,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -23061,7 +23061,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23086,7 +23086,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23135,7 +23135,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23236,7 +23236,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23359,7 +23359,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23378,14 +23378,14 @@
       "title": "成仙只为她",
       "icon": "https://img-tc.tapimg.com/market/images/a36060a2b3a2dd4deb52f25926aec6b0.png/_tap_appicon_m.jpg",
       "description": "她为你燃尽神魂，你为她重走仙途。魔罗破界那一战，婷儿陨落、你力竭而亡；重生回到死那年的雪夜，凡人之躯里只剩她一缕残魂。20 大境界 13 篇剧情，炼体与魂力双修，60+ 养成系统全挂机——纯单机、无内...",
-      "heat": 172,
+      "heat": 173,
       "fans": 186,
       "rating": 9.7,
       "reviews": 12,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 62,
+      "growth": 1,
       "categories": [
         1
       ],
@@ -23407,7 +23407,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -23430,7 +23430,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23554,7 +23554,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 17,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23581,7 +23581,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23629,7 +23629,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -23652,7 +23652,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23726,7 +23726,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23753,7 +23753,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -23797,7 +23797,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23868,7 +23868,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -23919,7 +23919,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24067,7 +24067,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24120,7 +24120,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24237,7 +24237,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24336,7 +24336,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24362,7 +24362,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24435,7 +24435,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -24457,7 +24457,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24529,7 +24529,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24847,7 +24847,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -24869,7 +24869,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -24943,7 +24943,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -24965,7 +24965,7 @@
       "officialRank": 99,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 92,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25005,14 +25005,14 @@
       "title": "ifso",
       "icon": "https://img-tc.tapimg.com/market/images/d420ea03e772df3f7f4c72ba6d389b18.png/_tap_appicon_m.jpg",
       "description": "摆好规则，然后看看会发生什么。ifso 是一款规则解谜游戏。你可以交换指令中的元件，调整它们的排列，改变规则，让小小的三角指针走向终点。",
-      "heat": 2088,
+      "heat": 2089,
       "fans": 1922,
       "rating": 10,
       "reviews": 34,
       "officialRank": 30,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 83,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -25108,7 +25108,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 12,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25157,7 +25157,7 @@
       "officialRank": 15,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 16,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25232,7 +25232,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25308,7 +25308,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25402,7 +25402,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25500,7 +25500,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25524,7 +25524,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25668,7 +25668,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -25740,7 +25740,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -25908,7 +25908,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -25978,7 +25978,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26049,14 +26049,14 @@
       "title": "ai在黎明前",
       "icon": "https://img-tc.tapimg.com/market/images/260d2318879f473f182c2e61d5935bce.jpg/_tap_appicon_m.jpg",
       "description": "在未来世界，人类社会依赖超级人工智能“织网者”。可是一次名为“偏航”的异常事件后，“织网者”开始执行无法溯源的错误指令。为了寻找解决方法，人类会启动怎样的计划？而我们的主角在这一时刻，会发生怎样的奇遇...",
-      "heat": 197,
-      "fans": 201,
+      "heat": 200,
+      "fans": 205,
       "rating": 10,
       "reviews": 8,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 135,
+      "growth": 3,
       "categories": [
         1,
         2,
@@ -26103,7 +26103,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -26126,7 +26126,7 @@
       "officialRank": 29,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 29,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26298,7 +26298,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -26313,14 +26313,14 @@
       "title": "地狱列车",
       "icon": "https://img-tc.tapimg.com/market/images/FlWLfNwmCGUxzMvK8Faci2Rl1zbj.png/_tap_appicon_m.jpg",
       "description": "言出法随？技能全靠自己拼！这趟通往地狱的列车，由你来守护！",
-      "heat": 5247,
-      "fans": 4587,
+      "heat": 5249,
+      "fans": 4588,
       "rating": 9.1,
-      "reviews": 63,
+      "reviews": 64,
       "officialRank": 16,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 142,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -26346,7 +26346,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26371,7 +26371,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26423,7 +26423,7 @@
       "officialRank": 62,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26441,14 +26441,14 @@
       "title": "火力不足恐惧症",
       "icon": "https://img-tc.tapimg.com/market/images/958a932f578eeffd6531b1d6de0689d6.png/_tap_appicon_m.jpg",
       "description": "“火力不足恐惧症”从来都不是一句玩笑，而是末日生存的唯一真理。在移动城市“黑砧”的逼仄机库中，组合机枪、重炮、导弹与支援模组，将整套钢铁防线空投至焦土，迎击如海啸般涌来的机械狂潮。用战火淬炼资源，扩...",
-      "heat": 10099,
-      "fans": 9301,
+      "heat": 10115,
+      "fans": 9317,
       "rating": 9.5,
       "reviews": 87,
       "officialRank": 9,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1150,
+      "growth": 16,
       "categories": [
         1,
         2,
@@ -26473,7 +26473,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -26569,7 +26569,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26596,7 +26596,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -26643,7 +26643,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26670,7 +26670,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26837,14 +26837,14 @@
       "title": "智能进化论",
       "icon": "https://img-tc.tapimg.com/market/images/FhaJDODtcI8kL3hY1RatECNOfWMG.png/_tap_appicon_m.jpg",
       "description": "《智能进化论》是一座掌上生命实验室：没有剧本，没有必胜攻略——你提出问题，做一次干预，然后看生命自己跑出答案。七个实验，顶部导航随时切换：【生物宇宙】从 8×5 的微小幼体开始：觅食成长、解锁...",
-      "heat": 20,
+      "heat": 21,
       "fans": 22,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -26913,7 +26913,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26939,7 +26939,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -26963,7 +26963,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -27179,7 +27179,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -27205,7 +27205,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -27277,7 +27277,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -27323,7 +27323,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -27419,7 +27419,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -27441,7 +27441,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -27465,7 +27465,7 @@
       "officialRank": 85,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 15,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -27582,7 +27582,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -27700,7 +27700,7 @@
       "officialRank": 71,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 21,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -27724,7 +27724,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -27870,7 +27870,7 @@
       "officialRank": 67,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 18,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -27892,7 +27892,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -27909,14 +27909,14 @@
       "title": "密林：危机涌现",
       "icon": "https://img-tc.tapimg.com/market/images/e7a0b9cd8b4b0c7fa16bf474077a586b.png/_tap_appicon_m.jpg",
       "description": "这是一款末日僵尸题材俯视角点击模拟生存游戏。末日中，你负责的这片营地已被感染者层层包围。大部队已经撤离，下一次救援还要等到第六天，你该怎么生存？透过林间迷雾，你能看见营地内外的动静，安排资源采集、食物...",
-      "heat": 616,
-      "fans": 554,
+      "heat": 617,
+      "fans": 555,
       "rating": 8.1,
       "reviews": 10,
       "officialRank": 78,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 47,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -28009,7 +28009,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -28074,7 +28074,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28100,7 +28100,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28150,7 +28150,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28177,7 +28177,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -28246,7 +28246,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28347,7 +28347,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28415,7 +28415,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28463,7 +28463,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28637,7 +28637,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28663,7 +28663,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28754,7 +28754,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -28921,7 +28921,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -28965,7 +28965,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -28989,7 +28989,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -29011,7 +29011,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -29265,7 +29265,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -29315,7 +29315,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -29365,7 +29365,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -29414,7 +29414,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -29509,7 +29509,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -29572,14 +29572,14 @@
       "title": "天行健",
       "icon": "https://img-tc.tapimg.com/market/images/e8ce568e78dd369006671fb1f07b8794.png/_tap_appicon_m.jpg",
       "description": "《天行健》是一款第一人称的东方山海开放世界。你可以把它想成 3D 版的饥荒+怪物猎人，再叠两个有趣的玩法：数改和真元素反应。数改是这游戏的灵魂。你打开数改模式，屏幕上每个数字都能修改。怪的血量？...",
-      "heat": 1105,
-      "fans": 1123,
+      "heat": 1107,
+      "fans": 1125,
       "rating": 9,
       "reviews": 18,
       "officialRank": 51,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 165,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -29604,7 +29604,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -29627,7 +29627,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -29651,7 +29651,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -29791,7 +29791,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -29864,7 +29864,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         4,
@@ -29964,7 +29964,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -30005,14 +30005,14 @@
       "title": "龙的胃里",
       "icon": "https://img-tc.tapimg.com/market/images/FuSqYtI3JQAPCuQYL8g1mCojL5XF.png/_tap_appicon_m.jpg",
       "description": "被巨龙吞下以后，你决定先安个家。钩回漂来的怪物，拆出骨料与筋膜，把一块小小的骨筏，建成胃海上的家园。《龙的胃里》是一款手绘画风的单人生存建造游戏。这里没有现成的木屋与炉灶：骸骨撑起帐篷，筋膜缝...",
-      "heat": 327,
-      "fans": 280,
+      "heat": 328,
+      "fans": 281,
       "rating": null,
       "reviews": 3,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 64,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -30065,7 +30065,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -30158,7 +30158,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -30222,14 +30222,14 @@
       "title": "鸭鸭 · 禁区撤离",
       "icon": "https://img-tc.tapimg.com/market/images/FsJZF1Xs8UarmXvz9QYzcMCq-Hd-.png/_tap_appicon_m.jpg",
       "description": "搜到好东西，是继续深入，还是现在就撤？《鸭鸭 · 禁区撤离》是一款鸭鸭题材的 2D 俯视角单人搜打撤游戏。化身全副武装的鸭鸭行动员，进入医疗园区、港区转运站、生化研究所和林地疗养院，搜索物资、利用...",
-      "heat": 189,
+      "heat": 190,
       "fans": 156,
       "rating": 9.4,
       "reviews": 8,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 19,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -30248,14 +30248,14 @@
       "title": "MRS地铁轨道模拟器",
       "icon": "https://img-tc.tapimg.com/market/images/Fp1F0QNbA7f0k9MMOYa4tSpMzfzT.png/_tap_appicon_m.jpg",
       "description": "《MRS 地铁轨道模拟器》——坐进驾驶室，亲手开一趟真正的地铁。【硬核驾驶】ATP 列车自动防护 + ATO 自动运行。超速会报警，闯红灯会被拦停。逐级牵引与制动挡位，起步加速度、坡道、曲线均按...",
-      "heat": 563,
+      "heat": 564,
       "fans": 543,
       "rating": null,
       "reviews": 1,
       "officialRank": 89,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 90,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -30281,7 +30281,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30307,7 +30307,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30332,7 +30332,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30381,7 +30381,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -30403,7 +30403,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -30426,7 +30426,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30476,7 +30476,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -30568,7 +30568,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -30585,13 +30585,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/FhXdgmUmR1R56TUNwwZqFr6xUJ5P.png/_tap_appicon_m.jpg",
       "description": "一家小公司，一群有脾气的年轻人，还有每天都在变化的办公室故事。《年轻人要多吃苦》是一款带有荒诞幽默与悬疑氛围的办公室模拟经营游戏。你将扮演公司经营者，招募员工、安排岗位、分配项目，在经营收益、团队...",
       "heat": 179,
-      "fans": 182,
+      "fans": 183,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30738,7 +30738,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -30762,7 +30762,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30788,7 +30788,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30812,7 +30812,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -30835,7 +30835,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -30906,7 +30906,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -30952,7 +30952,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31027,7 +31027,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -31073,7 +31073,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31100,7 +31100,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -31287,7 +31287,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31312,7 +31312,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 11,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -31404,7 +31404,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31500,7 +31500,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -31567,7 +31567,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -31659,7 +31659,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -31681,7 +31681,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31728,7 +31728,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31801,7 +31801,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31825,7 +31825,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -31919,7 +31919,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -31963,7 +31963,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -32035,7 +32035,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -32060,7 +32060,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -32175,7 +32175,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -32267,7 +32267,7 @@
       "officialRank": 50,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 45,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -32310,14 +32310,14 @@
       "title": "AAA下水道清理大王",
       "icon": "https://img-tc.tapimg.com/market/images/fe06d4c0d39b22168d79e9e1af99ae0b.png/_tap_appicon_m.jpg",
       "description": "城镇的下水道堵了，堵住它的东西，正在往上爬....作为城镇的下水道清理大王，你需要守在井口往下打弹珠，清理掉这些怪物。井水会一直往上涨，怪物也会一直往上爬，你要做的就是在下水道里的东西涌上来之前，...",
-      "heat": 1060,
+      "heat": 1062,
       "fans": 936,
       "rating": 9.6,
       "reviews": 22,
       "officialRank": 56,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 176,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -32412,7 +32412,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 20,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -32462,7 +32462,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -32485,7 +32485,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -32622,7 +32622,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -32661,14 +32661,14 @@
       "title": "兔修斯之船",
       "icon": "https://img-tc.tapimg.com/market/images/402f3975afa22eab7420f4aa9c6e452d.png/_tap_appicon_m.jpg",
       "description": "《兔修斯之船》是一款黑暗童话风格的剧情解谜游戏。你将扮演一只从未出过门的小兔子凯拉，为了寻找失踪的姐姐菲，踏入一个器官可以自由买卖的古怪世界。将看似无关的物品联系起来，解开谜题；借助器官的能力，探寻...",
-      "heat": 104,
-      "fans": 107,
+      "heat": 106,
+      "fans": 109,
       "rating": 9,
       "reviews": 6,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 36,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -32808,7 +32808,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -32900,7 +32900,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -32974,7 +32974,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -33022,7 +33022,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -33089,7 +33089,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33132,11 +33132,11 @@
       "heat": 24,
       "fans": 25,
       "rating": 10,
-      "reviews": 16,
+      "reviews": 17,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -33158,7 +33158,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33227,7 +33227,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33253,7 +33253,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33371,7 +33371,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -33415,7 +33415,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33465,7 +33465,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -33508,7 +33508,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -33530,7 +33530,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -33553,7 +33553,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -33721,7 +33721,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -33792,7 +33792,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -33881,7 +33881,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33929,7 +33929,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -33956,7 +33956,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -34052,7 +34052,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34076,7 +34076,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34100,7 +34100,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34175,7 +34175,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -34198,7 +34198,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34291,13 +34291,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/Fr2Rz8foWJzfKMjQjrsIQuubzhi4.png/_tap_appicon_m.jpg",
       "description": "昨天还是厂二代，今天就得自己打螺丝！被家族赶出来的你，接手一间小厂，从一条生产线和有限资金开始，靠自己的本事重回家族，成为厂王。采购原料、规划产线、升级机器与仓储，调度货车把成品送到客户手中。...",
       "heat": 505,
-      "fans": 473,
+      "fans": 474,
       "rating": null,
       "reviews": 3,
       "officialRank": 90,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 12,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34323,7 +34323,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34350,7 +34350,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34391,13 +34391,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/21e6b7f78ed558c474abda84762b3db5.jpg/_tap_appicon_m.jpg",
       "description": "从来不是某一个野人突然开了窍，获得了智慧，而真正的智慧，是当族群繁衍到一定人数，你把这群各怀心思的野人一个个抓起来、丢进古老的石阵里，他们围坐成一圈，起初每个人脑子里想的都不一样——这一秒有人头顶亮起...",
       "heat": 188,
-      "fans": 170,
+      "fans": 171,
       "rating": 10,
       "reviews": 10,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 48,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34422,7 +34422,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -34467,7 +34467,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -34489,7 +34489,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34560,7 +34560,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34579,13 +34579,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/91c7b0ccc3b049393594aac286d7f969.png/_tap_appicon_m.jpg",
       "description": "一款即时战略卡牌游戏，在游戏里你可与修建建筑，招募英雄来组成你的卡组，强化建筑和你的城市，来给予你卡组加成，使用你的卡片合理构筑，打败强敌。",
       "heat": 260,
-      "fans": 237,
+      "fans": 238,
       "rating": 10,
       "reviews": 12,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34751,7 +34751,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -34797,7 +34797,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34895,7 +34895,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -34988,7 +34988,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35078,13 +35078,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/915cd0b5f36d3ea704dd830e7aaa01c1.png/_tap_appicon_m.jpg",
       "description": "在《警告：勇者数量已超过路边野狗——败犬勇者太多了！》（简称《败犬勇者太多了》（简称《勇现》））里，你将扮演一位有幸进入皇宫作为实习面试官的人，在一众牛鬼蛇神鱼龙混杂的面试者中挑选出能真正胜任讨伐魔王...",
       "heat": 17,
-      "fans": 16,
+      "fans": 17,
       "rating": 10,
       "reviews": 3,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -35107,7 +35107,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -35129,7 +35129,7 @@
       "officialRank": 45,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 49,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35276,7 +35276,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -35298,7 +35298,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35322,7 +35322,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35513,7 +35513,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35585,7 +35585,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -35630,7 +35630,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -35652,7 +35652,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35719,7 +35719,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35744,7 +35744,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35798,7 +35798,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -35894,7 +35894,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -36018,7 +36018,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -36063,7 +36063,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -36103,14 +36103,14 @@
       "title": "聚宝盆",
       "icon": "https://img-tc.tapimg.com/market/images/61f43621fb678dac4dd2250aa785f48c.png/_tap_appicon_m.jpg",
       "description": "《聚宝盆》是一款轻度策略与风险决策游戏。继续投币，让盆里的财富越积越多；还是及时领取，保住眼前的收获？购买祝福、升级宝盆、帮助村民，别忘了为不断上涨的税款做好准备！还有特殊收藏币等待发现。好运涌现之...",
-      "heat": 167,
+      "heat": 168,
       "fans": 158,
       "rating": null,
       "reviews": 2,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 1,
       "categories": [
         1
       ],
@@ -36156,7 +36156,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -36201,7 +36201,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -36286,14 +36286,14 @@
       "title": "文明涌现：主不在乎",
       "icon": "https://img-tc.tapimg.com/market/images/48d25bdd9bf9e52f0189859a53bd7cf8.png/_tap_appicon_m.jpg",
       "description": "他们把你当作神明。可这座小岛，越来越有自己的主意。《文明涌现：主不在乎》是一款小岛文明模拟游戏。从一簇营火、几个人和一片荒野开始，你用神迹改变环境，看人类在岛上摸索自己的生活。降下一场雨，种下...",
-      "heat": 965,
-      "fans": 889,
+      "heat": 975,
+      "fans": 898,
       "rating": 9.2,
       "reviews": 9,
       "officialRank": 70,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 417,
+      "growth": 10,
       "categories": [
         1,
         2,
@@ -36343,7 +36343,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -36391,7 +36391,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -36535,7 +36535,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -36580,7 +36580,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -36674,7 +36674,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -36699,7 +36699,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -36722,7 +36722,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -36793,7 +36793,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -36843,7 +36843,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -36914,7 +36914,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -36940,7 +36940,7 @@
       "officialRank": 80,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 18,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37037,7 +37037,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37062,7 +37062,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37134,7 +37134,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37175,14 +37175,14 @@
       "title": "代号：修仙沙盒",
       "icon": "https://img-tc.tapimg.com/market/images/e1605e8380b74803abe188a7dbd9b197.png/_tap_appicon_m.jpg",
       "description": "《代号：修仙沙盒》是一款俯视视角的修仙宗门沙盒模拟游戏。你将成为青阳宗宗主，从筹集资粮、巡护山门开始，经营一座有人情、有传承，也有风险的宗门。颁下一道敕令，主事受理，门人领令出山；灵草与矿石要实际...",
-      "heat": 347,
-      "fans": 347,
+      "heat": 348,
+      "fans": 348,
       "rating": null,
       "reviews": 3,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 43,
+      "growth": 1,
       "categories": [
         2,
         5
@@ -37205,7 +37205,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -37227,7 +37227,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37274,7 +37274,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37291,14 +37291,14 @@
       "title": "极限人生·尾崎八项",
       "icon": "https://img-tc.tapimg.com/market/images/Fn5y6YVR3yRcUHCm-lvsd1sZWguF.png/_tap_appicon_m.jpg",
       "description": "有设有8种不同的极限关卡，每种都是在现实中十分难以实现的极限挑战，欢迎大家来玩！",
-      "heat": 511,
-      "fans": 508,
+      "heat": 512,
+      "fans": 509,
       "rating": null,
       "reviews": 2,
       "officialRank": 98,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 116,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -37348,7 +37348,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37442,7 +37442,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37459,14 +37459,14 @@
       "title": "挖哦",
       "icon": "https://img-tc.tapimg.com/market/images/ce9cb15c35c30a5ae54bb412cc910205.png/_tap_appicon_m.jpg",
       "description": "一个关于涌现的挖矿游戏",
-      "heat": 13,
+      "heat": 14,
       "fans": 20,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -37532,14 +37532,14 @@
       "title": "诸天：万界",
       "icon": "https://img-tc.tapimg.com/market/images/FtDd0__Mt4IpmUseCw7Js4u1j4J6.png/_tap_appicon_m.jpg",
       "description": "创造，建设，探索，征服，融合。在藏着无数世界的浩瀚星海中，你将从一块碎片世界起步，逐步扩张领地、探索未知星域、融合多元文明、征服星际对手，最终登顶星海霸主。现在就开启你的星际霸业！",
-      "heat": 167,
-      "fans": 159,
+      "heat": 168,
+      "fans": 160,
       "rating": null,
       "reviews": 2,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 22,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -37565,7 +37565,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 72,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37688,7 +37688,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37757,7 +37757,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -37853,7 +37853,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 18,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -37868,14 +37868,14 @@
       "title": "Sepsis：败血症",
       "icon": "https://img-tc.tapimg.com/market/images/4c54f55997e6e608108817f62547f477.png/_tap_appicon_m.jpg",
       "description": "《Sepsis：败血症》是一款以人体免疫系统为战场的即时自动战斗策略游戏。病原体会繁殖、逃跑、搭着红细胞偷渡到别的组织；中性粒、巨噬、NK、T、B 细胞各自按局部规则巡视、追击、厮杀。你不指挥每一次攻...",
-      "heat": 831,
-      "fans": 804,
+      "heat": 834,
+      "fans": 806,
       "rating": 9.3,
       "reviews": 16,
       "officialRank": 68,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 109,
+      "growth": 3,
       "categories": [
         1,
         2,
@@ -37893,14 +37893,14 @@
       "title": "兵无定势",
       "icon": "https://img-tc.tapimg.com/market/images/Fikxf2G6mw3oShPRDjxOJTZjthnJ.png/_tap_appicon_m.jpg",
       "description": "兵无定势，水无常形，在沙盘上画进攻线、防御线、撤退线，算准敌将动向，打一场漂亮的合围歼灭战。",
-      "heat": 236,
-      "fans": 230,
+      "heat": 237,
+      "fans": 231,
       "rating": null,
       "reviews": 2,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 74,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -37926,7 +37926,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -37969,14 +37969,14 @@
       "title": "搜了就撤:我很会理包",
       "icon": "https://img-tc.tapimg.com/market/images/FjUvCw8EFirubyRiUbmuZxHfHRzi.png/_tap_appicon_m.jpg",
       "description": "《搜了就撤》是一款横屏搜刮小游戏。你要做的事很简单：挑一张地图，进去，把箱子一个个撬开，然后决定带什么走。搜：地图上散落着普通物资点和保险箱，点开保险箱会进入破解环节——滚动字符在四条轨道上跑，你...",
-      "heat": 1652,
-      "fans": 1484,
+      "heat": 1654,
+      "fans": 1485,
       "rating": 6.6,
       "reviews": 8,
       "officialRank": 38,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 134,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -38002,7 +38002,7 @@
       "officialRank": 33,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 20,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -38050,7 +38050,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -38289,7 +38289,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -38405,7 +38405,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 30,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -38501,7 +38501,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -38570,7 +38570,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -38594,7 +38594,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -38688,7 +38688,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -38711,7 +38711,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -38783,7 +38783,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -38829,7 +38829,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -39151,7 +39151,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -39218,7 +39218,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -39241,7 +39241,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39288,7 +39288,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -39333,7 +39333,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39358,7 +39358,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39383,7 +39383,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39433,7 +39433,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39479,7 +39479,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -39547,7 +39547,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -39569,7 +39569,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -39587,7 +39587,7 @@
       "heat": 7,
       "fans": 11,
       "rating": null,
-      "reviews": 2,
+      "reviews": 3,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
@@ -39613,7 +39613,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39638,7 +39638,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -39660,7 +39660,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39753,7 +39753,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39801,7 +39801,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39827,7 +39827,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -39874,7 +39874,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39921,7 +39921,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -39993,7 +39993,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -40063,7 +40063,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -40180,7 +40180,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -40248,7 +40248,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -40273,7 +40273,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -40344,7 +40344,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -40389,7 +40389,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -40435,7 +40435,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -40666,7 +40666,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -40688,7 +40688,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -40886,14 +40886,14 @@
       "title": "漫漫狸途",
       "icon": "https://img-tc.tapimg.com/market/images/ae44e8ae10defa0f1ce196848c237912.png/_tap_appicon_m.jpg",
       "description": "在桌面的一角，与小狐狸开启一场悄然生长的旅程吧！你的每一次选择，都会引发意想不到的连锁变化，让整片土地焕然一新。这是一款以“涌现”为核心的休闲桌面放置游戏。玩家沿途收集并投放有限的种子与水源，晕染...",
-      "heat": 15,
+      "heat": 16,
       "fans": 16,
       "rating": null,
       "reviews": 2,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 1,
       "categories": [
         2,
         5
@@ -40989,7 +40989,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -41138,7 +41138,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41374,7 +41374,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -41396,7 +41396,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -41413,13 +41413,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/25b8872656023e3821d2944a7bac1e2d.png/_tap_appicon_m.jpg",
       "description": "长大以后，她忙着生活，却渐渐忘记了小时候，那些闪闪发亮的愿望。一只小猫悄悄走进她的梦乡。你将陪它穿过熟悉又陌生的房间，解开藏在生活里的小谜题。三个夜晚，一件旧物、一段声音、一次微小的相遇。那些散落...",
       "heat": 66,
-      "fans": 71,
+      "fans": 72,
       "rating": 10,
       "reviews": 14,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 22,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41443,7 +41443,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -41489,7 +41489,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41536,7 +41536,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 16,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41651,7 +41651,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41676,7 +41676,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41792,7 +41792,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -41816,7 +41816,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -41931,7 +41931,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42002,7 +42002,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42027,7 +42027,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -42142,7 +42142,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -42164,7 +42164,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -42186,7 +42186,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42210,7 +42210,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -42324,7 +42324,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -42347,7 +42347,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42372,7 +42372,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -42441,7 +42441,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42488,7 +42488,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42513,7 +42513,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -42560,7 +42560,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 18,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42607,7 +42607,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -42652,7 +42652,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -42697,7 +42697,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42722,7 +42722,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -42790,7 +42790,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -42809,11 +42809,11 @@
       "heat": 29,
       "fans": 31,
       "rating": null,
-      "reviews": 3,
+      "reviews": 4,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 15,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -42860,7 +42860,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -42898,14 +42898,14 @@
       "title": "电摩改装店",
       "icon": "https://img-tc.tapimg.com/market/images/FsFGD29dUQHSGSaN_kld6f2l4FRx.jpg/_tap_appicon_m.jpg",
       "description": "在街角盘下一间小车库，当上电摩改装店老板！客户带着具体的心愿上门：想起步更快、想多跑几十公里、想刹车省力、想让车在展会上被认出来……在预算内挑选电池、电控、电机、制动、电气、冷却、轮胎、壳体等配件，...",
-      "heat": 596,
-      "fans": 590,
+      "heat": 598,
+      "fans": 592,
       "rating": null,
       "reviews": 1,
       "officialRank": 88,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 131,
+      "growth": 2,
       "categories": [
         1,
         2,
@@ -42998,7 +42998,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43044,7 +43044,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43323,7 +43323,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43347,7 +43347,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43371,7 +43371,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -43416,7 +43416,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -43439,7 +43439,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -43484,7 +43484,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43508,7 +43508,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -43553,7 +43553,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43578,7 +43578,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -43626,7 +43626,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -43667,14 +43667,14 @@
       "title": "种树炼金吃果果",
       "icon": "https://img-tc.tapimg.com/market/images/2bfb82d857a1fbefc1d03a4ffb2142fd.png/_tap_appicon_m.jpg",
       "description": "掉到悬崖下面了！还好下面是沙地，得救了。但是要怎么出去呢，凭着前人的炼金装备，开始种树炼药吃果果吧！",
-      "heat": 373,
-      "fans": 351,
+      "heat": 378,
+      "fans": 353,
       "rating": 10,
       "reviews": 8,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 160,
+      "growth": 5,
       "categories": [
         1,
         2,
@@ -43797,7 +43797,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44089,7 +44089,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -44180,13 +44180,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/0a68c1a2705a919ff252d6559a1c5128.png/_tap_appicon_m.jpg",
       "description": "“如果...记忆深处的色彩，涌现为一幅幅心画。它们，会温暖你吗？”《心画》是一款探索式涌现叙事解谜游戏。内心涌现之画景，是为「心画」。进入年轻独居主角残存记忆的内心，使那些被淡忘的细节与物件重新在...",
       "heat": 22,
-      "fans": 25,
+      "fans": 26,
       "rating": 10,
       "reviews": 5,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44319,7 +44319,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -44386,7 +44386,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44480,7 +44480,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -44503,7 +44503,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44572,7 +44572,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44710,7 +44710,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44734,7 +44734,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44758,7 +44758,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -44826,7 +44826,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -44849,7 +44849,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -44945,7 +44945,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -44962,14 +44962,14 @@
       "title": "安可回响",
       "icon": "https://img-tc.tapimg.com/market/images/812fe9916910a70f6478705336ddc3d8.jpg/_tap_appicon_m.jpg",
       "description": "《安可回响》是一款来自失乐园工作室的可爱风偶像音乐游戏，也是2026 TapTap聚光灯21天游戏制作挑战赛参与作品。加入游戏，和四位偶像一起经历打歌之路吧—————————————————————...",
-      "heat": 134,
-      "fans": 157,
+      "heat": 135,
+      "fans": 158,
       "rating": 9.8,
       "reviews": 8,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 60,
+      "growth": 1,
       "categories": [
         1
       ],
@@ -45042,7 +45042,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -45066,7 +45066,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -45109,14 +45109,14 @@
       "title": "康波喵喵",
       "icon": "https://img-tc.tapimg.com/market/images/24dfd817e860068ba900f38baa0dbcba.png/_tap_appicon_m.jpg",
       "description": "《康波喵喵》的核心目标是通过结合场地和怪物的特殊连锁效果和手牌构筑策略达成酣畅淋漓的清场体验。组合连锁特殊效果的倍率和高分敌人，在有限的战斗回合内打出爽到爆表的高分过关",
-      "heat": 190,
+      "heat": 191,
       "fans": 196,
       "rating": 9.8,
       "reviews": 7,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 53,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -45208,7 +45208,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -45326,7 +45326,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -45425,7 +45425,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -45447,7 +45447,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -45472,7 +45472,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -45565,7 +45565,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 7,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -45588,7 +45588,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -45797,7 +45797,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -45842,7 +45842,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -45889,7 +45889,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -45928,14 +45928,14 @@
       "title": "泉水与小镇",
       "icon": "https://img-tc.tapimg.com/market/images/50efd5d448c93ce9e0e5038e3e1f77fe.png/_tap_appicon_m.jpg",
       "description": "《泉水与小镇》是一款轻松治愈的庭院建造游戏。收集小材料，投入泉水，在一次次组合与尝试中发现惊喜。逐步扩展土地，随心布置花草、小屋与景造。伴着昼夜交替、晴雨变换，看植物慢慢生长，发现物件之间的有趣互动，...",
-      "heat": 219,
-      "fans": 202,
+      "heat": 220,
+      "fans": 203,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 49,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -45984,7 +45984,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -46007,7 +46007,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -46102,7 +46102,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -46315,7 +46315,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -46338,7 +46338,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -46384,7 +46384,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -46406,7 +46406,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -46454,7 +46454,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -46544,7 +46544,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -46662,7 +46662,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -46708,7 +46708,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -46802,7 +46802,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -46825,7 +46825,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47005,11 +47005,11 @@
       "heat": 10,
       "fans": 13,
       "rating": null,
-      "reviews": 0,
+      "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47079,7 +47079,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47103,7 +47103,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47175,7 +47175,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -47198,7 +47198,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -47220,7 +47220,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -47291,7 +47291,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 9,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47384,7 +47384,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 10,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47546,7 +47546,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47571,7 +47571,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -47594,7 +47594,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -47642,7 +47642,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 13,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -47711,7 +47711,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -47779,7 +47779,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -47846,7 +47846,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -47987,7 +47987,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -48058,7 +48058,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48214,7 +48214,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48253,14 +48253,14 @@
       "title": "早安，明天见",
       "icon": "https://img-tc.tapimg.com/market/images/c3c6c373507b11e30b6c128611685d6a.jpg/_tap_appicon_m.jpg",
       "description": "“我明天还能见到你吗”",
-      "heat": 10,
-      "fans": 14,
+      "heat": 11,
+      "fans": 15,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 1,
       "categories": [
         2,
         5
@@ -48283,7 +48283,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 39,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -48307,7 +48307,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48357,7 +48357,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48380,7 +48380,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -48402,7 +48402,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48450,7 +48450,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 54,
+      "growth": 0,
       "categories": [
         1,
         4
@@ -48497,7 +48497,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48565,7 +48565,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -48588,7 +48588,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -48634,7 +48634,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -48703,7 +48703,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -48745,7 +48745,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -48882,7 +48882,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -48904,7 +48904,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -48926,7 +48926,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -48951,7 +48951,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         5
       ],
@@ -49017,7 +49017,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -49062,7 +49062,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49086,7 +49086,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49155,11 +49155,11 @@
       "heat": 49,
       "fans": 44,
       "rating": 10,
-      "reviews": 7,
+      "reviews": 9,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49183,7 +49183,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -49254,7 +49254,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         4,
@@ -49303,7 +49303,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -49325,7 +49325,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -49438,7 +49438,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -49460,7 +49460,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49529,7 +49529,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49553,7 +49553,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 12,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49601,7 +49601,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -49624,7 +49624,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -49669,7 +49669,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -49693,7 +49693,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -49786,7 +49786,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -49808,7 +49808,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -49831,7 +49831,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -49921,7 +49921,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -50040,7 +50040,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -50086,7 +50086,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -50113,7 +50113,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -50130,13 +50130,13 @@
       "icon": "https://img-tc.tapimg.com/market/images/FgV54k0FwxJQMPMI8D3spHgOIUgm.png/_tap_appicon_m.jpg",
       "description": "欢迎来到擂茶小馆！在这里亲手研磨传统擂茶，可随意DIY~",
       "heat": 211,
-      "fans": 206,
+      "fans": 207,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 37,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -50255,7 +50255,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -50434,14 +50434,14 @@
       "title": "灵力涌现",
       "icon": "https://img-tc.tapimg.com/market/images/9130bd4eb30adccb65c4c22abb707010.png/_tap_appicon_m.jpg",
       "description": "把灵纹连成回路，让你的想法成为法术。《灵力涌现》是一款结合灵纹回路构筑与俯视角生存战斗的游戏。灵力从源头出发，沿着你布置的导流路径流入技能。如何分流、连接哪些法术、为哪条回路加入效果灵纹，都由你来...",
-      "heat": 15,
+      "heat": 16,
       "fans": 17,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -50530,7 +50530,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -50714,7 +50714,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -50760,7 +50760,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 4,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -50783,7 +50783,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -50852,7 +50852,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -50920,7 +50920,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -50944,7 +50944,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 8,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -51062,7 +51062,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -51129,7 +51129,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -51152,7 +51152,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -51202,7 +51202,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 6,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -51296,7 +51296,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -51390,7 +51390,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -51555,7 +51555,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -51784,7 +51784,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -51810,7 +51810,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -51924,7 +51924,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -51967,7 +51967,7 @@
       "heat": 0,
       "fans": 3,
       "rating": null,
-      "reviews": 0,
+      "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
@@ -52039,7 +52039,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -52064,7 +52064,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -52091,7 +52091,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -52180,7 +52180,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -52268,7 +52268,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -52285,14 +52285,14 @@
       "title": "剑心归途",
       "icon": "https://img-tc.tapimg.com/market/images/FoyT2EEeWx3h4hCfgv-aK-m0jX1X.png/_tap_appicon_m.jpg",
       "description": "一个关于重新找到人生目标、租田与重新生活的古风文字叙事。",
-      "heat": 5,
+      "heat": 6,
       "fans": 5,
       "rating": null,
       "reviews": 1,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 0,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -52445,14 +52445,14 @@
       "title": "有限finite",
       "icon": "https://img-tc.tapimg.com/market/images/e98f5930f664ac7791e4c67399112302.png/_tap_appicon_m.jpg",
       "description": "《有限finite》是一款围绕研究生日常展开的模拟游戏。在有限的时间里，阅读文献、标记研究线索、组合卡牌完成论文，也要应对实验室里的临时任务与组会。科研之外，运动与短暂的摸鱼同样影响你的状态。...",
-      "heat": 10,
-      "fans": 9,
+      "heat": 11,
+      "fans": 10,
       "rating": null,
       "reviews": 4,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -52476,7 +52476,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         1,
         5
@@ -52586,7 +52586,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         4
       ],
@@ -52632,7 +52632,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -52703,7 +52703,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -52749,7 +52749,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -52795,7 +52795,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -52859,7 +52859,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -52882,7 +52882,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53066,7 +53066,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -53187,7 +53187,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -53330,7 +53330,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -53355,7 +53355,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -53401,7 +53401,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         4,
         5
@@ -53473,7 +53473,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -53500,7 +53500,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [],
       "tags": [
         "聚光灯GameJam",
@@ -53542,7 +53542,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -53611,7 +53611,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 2,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53633,7 +53633,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 5,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -53680,7 +53680,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53725,7 +53725,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53769,7 +53769,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53882,7 +53882,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53904,7 +53904,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53948,7 +53948,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -53970,7 +53970,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         2,
         5
@@ -54013,7 +54013,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [],
       "tags": [
         "聚光灯GameJam",
@@ -54162,7 +54162,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         2
       ],
@@ -54229,7 +54229,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1,
         2,
@@ -54255,7 +54255,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -54341,7 +54341,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 3,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -54407,7 +54407,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -54422,14 +54422,14 @@
       "title": "只有一天的翅膀",
       "icon": "https://img-tc.tapimg.com/market/images/773d5b173b0a2cf449daa08a5cebe631.png/_tap_appicon_m.jpg",
       "description": "只有一天的翅膀》是一款 2D 的光影解谜游戏。在宇宙诞生前的「寂灭原点」，只有孤立漂浮的微光与灰尘。你是一只刚睁开眼的蜉蝣——生命只有一天，却要在这一天里走完六段旅程。拖动月亮让影子长成桥，与水面...",
-      "heat": 1,
+      "heat": 2,
       "fans": 2,
       "rating": null,
       "reviews": 0,
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 0,
+      "growth": 1,
       "categories": [
         1,
         2,
@@ -54496,7 +54496,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [],
       "tags": [
         "聚光灯GameJam",
@@ -54516,7 +54516,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": 1,
+      "growth": 0,
       "categories": [
         1
       ],
@@ -54607,7 +54607,7 @@
       "officialRank": null,
       "rankUpdatedAt": 1792580403,
       "votes": 0,
-      "growth": null,
+      "growth": 0,
       "categories": [
         5
       ],
