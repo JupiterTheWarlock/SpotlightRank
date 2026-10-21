@@ -12,6 +12,12 @@ test('公开发布只包含静态文件，配置禁止手动更新且不会带�
   assert.ok(!files.includes('_routes.json'));
   assert.ok(!files.includes('server.mjs'));
   assert.ok(files.includes('404.html'));
+  const html = await readFile(new URL('../dist/pages/index.html', import.meta.url), 'utf8');
+  const version = html.match(/app\.js\?v=([a-f0-9]{12})/)?.[1];
+  assert.ok(version, '页面资源必须使用内容版本，防止旧浏览器脚本缓存');
+  assert.ok(html.includes(`styles.css?v=${version}`));
+  const app = await readFile(new URL('../dist/pages/app.js', import.meta.url), 'utf8');
+  assert.ok(app.includes(`./collector.js?v=${version}`));
   const config = JSON.parse(await readFile(new URL('../dist/pages/runtime.json', import.meta.url), 'utf8'));
   assert.equal(config.runtime, 'static');
   assert.equal(config.canRefresh, false);

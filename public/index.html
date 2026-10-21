@@ -7,7 +7,7 @@
   <meta name="description" content="聚光灯2026 GameJam 多维度排行榜。按类型、开发方式和平台筛选，每小时发布榜单，支持自行本地更新。">
   <title>聚光灯2026gamejam 排行榜 · 聚光榜</title>
   <link rel="icon" href="/favicon.svg">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=0.3.0">
 </head>
 <body>
   <header class="site-header">
@@ -52,6 +52,6 @@
     <footer class="site-footer"><div class="author-info"><span class="author-label">制作</span><a href="https://jupiterthewarlock.com" target="_blank" rel="noopener noreferrer" class="author-link">术士木星 <span aria-hidden="true">↗</span></a><span class="author-bio">独立游戏设计师 &amp; 开发者</span><span class="author-label">参赛作品</span><a href="https://www.taptap.cn/app/978232" target="_blank" rel="noopener noreferrer" class="author-game-link">AAA下水道清理大王 <span aria-hidden="true">↗</span></a></div><span class="footer-disclaimer">聚光榜 · 非官方工具<br>不是评审结果或获奖名单</span></footer>
   </main>
   <dialog id="about-dialog"><div class="dialog-head"><div><p class="section-kicker">ABOUT THE DATA</p><h2>你看到的数据，从哪里来</h2></div><button id="close-about" class="close-button" aria-label="关闭">×</button></div><div class="dialog-content"><h3>每个浏览器，独立保存</h3><p id="data-route">名单和统计来自 TapTap 的公开接口。本机服务只转发读取请求，不保存作品数据，不需要账号或云服务器。浏览器使用 IndexedDB 保存最近两次完整快照和收藏。</p><h3>这些排名分别意味着什么</h3><ul><li><b>活动热度：</b>活动接口的热度数值，按降序排列。</li><li><b>关注、评分、评价：</b>来自作品当前的公开统计；没有返回的数据不当作零。</li><li><b>官方返回名次：</b>原样显示接口的 rank，只有部分作品带此字段。暂未查到公开计算公式，不当作评委评分。</li><li><b>热度变化：</b>只比较当前榜单记录的两次完整采集，不冒充全平台日榜。</li></ul><p id="about-snapshot">尚无快照。</p><h3>筛选依据</h3><p>类型来自作品公开标签。开发方式按官方目录区分 TapTap 制造与其他开发方式，无法据此判断具体引擎。支持手机、支持 PC 都包含双端作品；团队依据官方学生团队分类。</p><h3>缓存与更新</h3><p>打开页面会读取最新发布的榜单文件，并在浏览器缓存。网页不直接抓取 TapTap；在本机启动服务后才开放手动更新。只有完整获取并保存成功才替换旧数据，失败或取消不会清空旧榜单。缓存与当前浏览器及站点地址绑定，更换浏览器或端口会有独立缓存。</p><p>官方分类目录表示作品被活动收录，不能据此判断最终审核结果。不同接口的更新时刻和收录范围可能不同，所以官方名次与本地热度排序可能有差异。</p><div class="source-links"><a href="https://www.taptap.cn/poster/NIKiDS1YShdA" target="_blank" rel="noopener noreferrer">本届官方活动 ↗</a><a href="https://www.taptap.cn/game-jam-list" target="_blank" rel="noopener noreferrer">官方赛事目录 ↗</a></div><div class="cache-actions"><span id="cache-size">浏览器缓存</span><button id="clear-cache" class="danger-button">清除作品缓存</button></div><p class="small-copy">清除时保留收藏。作品图标保留浏览器原生右键菜单，可打开或保存；它们来自公开网页，没有本机原文件。</p></div></dialog>
-  <script type="module" src="/app.js"></script>
+  <script type="module" src="/app.js?v=0.3.0"></script>
 </body>
 </html>
