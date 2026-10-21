@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.dev.vars*
+*.log
+.local/
+dist/
+.wrangler/
+coverage/
+*.zip
+*.csv
+*snapshot*.json
+*.tmp
+.DS_Store

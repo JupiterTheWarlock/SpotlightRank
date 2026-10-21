@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="聚光灯2026 GameJam 多维度排行榜。按类型、开发方式和平台筛选，公开数据缓存在你的浏览器。">
+  <title>聚光灯2026gamejam 排行榜 · 聚光榜</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="聚光榜首页"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>聚光榜<small>SPOTLIGHT RANK</small></span></a>
+    <div class="header-right"><span class="local-label"><span class="status-dot"></span><span id="runtime-label">浏览器缓存</span></span><button class="quiet-button" id="about-button">数据说明 <span aria-hidden="true">↗</span></button></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow" id="event-eyebrow">2026 TAPTAP 聚光灯 · 21 天游戏创作挑战</p><h1>每一份创意，<br>都有自己的<span>光。</span></h1><p class="hero-description">从热度到口碑，换个角度发现本届作品。<br>按需获取公开数据，留在你的浏览器。</p></div>
+      <div class="sync-panel">
+        <div class="panel-topline"><span class="section-kicker">你的数据快照</span><span class="small-pill" id="cache-pill">尚未获取</span></div>
+        <div class="sync-time" id="sync-time">从最新数据开始</div><p id="sync-caption">首次获取需要一点时间，之后打开会直接读取缓存。</p>
+        <button class="primary-button" id="refresh-button"><span aria-hidden="true">↻</span><span id="refresh-label">获取本届数据</span></button>
+        <div class="sync-progress" id="sync-progress" hidden><div class="progress-track"><div id="progress-bar"></div></div><div class="progress-meta"><span id="progress-text" role="status" aria-live="polite">准备获取…</span><button id="cancel-button" class="text-button">取消</button></div></div>
+        <p class="sync-footnote" id="sync-footnote">无需登录 · 手动更新 · 无共享数据库</p>
+      </div>
+    </section>
+
+    <div id="notice" class="notice" role="status" hidden></div>
+    <section class="stats-grid" aria-label="本届作品概览">
+      <div class="stat-card"><div class="stat-label">已收录作品 <span>01</span></div><strong id="stat-count">—</strong><small id="stat-coverage">等待获取官方目录</small></div>
+      <div class="stat-card"><div class="stat-label">累计活动热度 <span>02</span></div><strong id="stat-heat">—</strong><small>所有已获取作品的热度合计</small></div>
+      <div class="stat-card"><div class="stat-label">热度中位数 <span>03</span></div><strong id="stat-median">—</strong><small>一半作品位于这个数值以下</small></div>
+      <div class="stat-card"><div class="stat-label">已有玩家评分 <span>04</span></div><strong id="stat-rated">—</strong><small>评分为零视为尚未形成评分</small></div>
+    </section>
+
+    <section class="rankings" aria-labelledby="ranking-heading">
+      <div class="section-heading"><div><p class="section-kicker">THE LEADERBOARD</p><h2 id="ranking-heading">换一个维度，看见好作品</h2></div><button id="export-button" class="secondary-button" disabled><span aria-hidden="true">↓</span> 导出当前榜单</button></div>
+      <nav class="metric-tabs" id="metric-tabs" aria-label="排名维度">
+        <button class="active" data-metric="heat" aria-pressed="true">活动热度</button><button data-metric="fans" aria-pressed="false">关注榜</button><button data-metric="rating" aria-pressed="false">评分榜</button><button data-metric="reviews" aria-pressed="false">评价榜</button><button data-metric="official" aria-pressed="false">官方返回名次</button><button data-metric="growth" aria-pressed="false">热度变化</button>
+      </nav>
+      <div class="search-toolbar"><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="搜索作品名称或 ID" aria-label="搜索作品名称或 ID" autocomplete="off"><kbd>/</kbd></label><button id="favorites-button" class="favorite-filter" aria-pressed="false"><span aria-hidden="true">☆</span> 我的收藏 <span id="favorite-count">0</span></button></div>
+      <div class="filters" aria-label="组合筛选"><div id="filter-type"></div><div id="filter-development"></div><div id="filter-platform"></div><div id="filter-team"></div><div id="rating-filter" hidden></div></div>
+      <div class="filter-status"><span id="filter-summary">全部作品</span><button id="reset-filters" class="text-button" disabled>重置筛选</button></div>
+      <div class="ranking-note"><p id="metric-description">按活动接口返回的热度数值降序排列。</p><span id="result-count">尚无数据</span></div>
+      <div class="table-shell" id="table-shell" hidden><table><thead><tr><th class="rank-col" scope="col">名次</th><th class="game-col" scope="col">参赛作品</th><th class="value-col" id="primary-column" scope="col">活动热度</th><th class="detail-col" scope="col">关注</th><th class="detail-col" scope="col">评分 / 评价</th><th class="favorite-col" scope="col"><span class="sr-only">收藏</span></th></tr></thead><tbody id="ranking-body"></tbody></table></div>
+      <div class="empty-state" id="empty-state"><div class="empty-symbol" aria-hidden="true">✧</div><h3 id="empty-title">让本届作品，在这里涌现</h3><p id="empty-description">点击「获取本届数据」，生成属于你的本地榜单。<br>项目不附带任何预置作品数据。</p><button id="empty-reset" class="secondary-button" hidden>重置筛选</button></div>
+      <div class="table-footer" id="table-footer" hidden><span id="page-info"></span><div class="pagination"><button id="prev-page" aria-label="上一页">←</button><span id="page-label">1 / 1</span><button id="next-page" aria-label="下一页">→</button></div></div>
+      <p class="scope-note">名次按组合筛选后的作品计算，同值并列；搜索和收藏不改变名次。官方名次始终保留接口原值。下拉菜单的数量为单项总数，手机与 PC 均包含双端作品。</p>
+    </section>
+    <footer class="site-footer"><div class="author-info"><span class="author-label">制作</span><a href="https://jupiterthewarlock.com" target="_blank" rel="noopener noreferrer" class="author-link">术士木星 <span aria-hidden="true">↗</span></a><span class="author-bio">独立游戏设计师 &amp; 开发者</span><span class="author-label">参赛作品</span><a href="https://www.taptap.cn/app/978232" target="_blank" rel="noopener noreferrer" class="author-game-link">AAA下水道清理大王 <span aria-hidden="true">↗</span></a></div><span class="footer-disclaimer">聚光榜 · 非官方工具<br>不是评审结果或获奖名单</span></footer>
+  </main>
+  <dialog id="about-dialog"><div class="dialog-head"><div><p class="section-kicker">ABOUT THE DATA</p><h2>你看到的数据，从哪里来</h2></div><button id="close-about" class="close-button" aria-label="关闭">×</button></div><div class="dialog-content"><h3>每个浏览器，独立保存</h3><p id="data-route">名单和统计来自 TapTap 的公开接口。本机服务只转发读取请求，不保存作品数据，不需要账号或云服务器。浏览器使用 IndexedDB 保存最近两次完整快照和收藏。</p><h3>这些排名分别意味着什么</h3><ul><li><b>活动热度：</b>活动接口的热度数值，按降序排列。</li><li><b>关注、评分、评价：</b>来自作品当前的公开统计；没有返回的数据不当作零。</li><li><b>官方返回名次：</b>原样显示接口的 rank，只有部分作品带此字段。暂未查到公开计算公式，不当作评委评分。</li><li><b>热度变化：</b>只比较本浏览器两次完整更新，不冒充全平台日榜。</li></ul><p id="about-snapshot">尚无快照。</p><h3>筛选依据</h3><p>类型来自作品公开标签。开发方式按官方目录区分 TapTap 制造与其他开发方式，无法据此判断具体引擎。支持手机、支持 PC 都包含双端作品；团队依据官方学生团队分类。</p><h3>缓存与更新</h3><p>打开页面优先使用本地缓存。点击更新才请求新数据，只有完整获取并保存成功才替换旧快照。关闭或取消更新不会清空旧数据。缓存与当前浏览器及站点地址绑定，更换浏览器或端口会有独立缓存。</p><p>官方分类目录表示作品被活动收录，不能据此判断最终审核结果。不同接口的更新时刻和收录范围可能不同，所以官方名次与本地热度排序可能有差异。</p><div class="source-links"><a href="https://www.taptap.cn/poster/NIKiDS1YShdA" target="_blank" rel="noopener noreferrer">本届官方活动 ↗</a><a href="https://www.taptap.cn/game-jam-list" target="_blank" rel="noopener noreferrer">官方赛事目录 ↗</a></div><div class="cache-actions"><span id="cache-size">浏览器缓存</span><button id="clear-cache" class="danger-button">清除作品缓存</button></div><p class="small-copy">清除时保留收藏。作品图标保留浏览器原生右键菜单，可打开或保存；它们来自公开网页，没有本机原文件。</p></div></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
