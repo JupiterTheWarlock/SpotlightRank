@@ -67,7 +67,7 @@ export function filterOptions(snapshot) {
   return {
     type: [all('全部类型'), ...[...tags].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-CN')).map(([tag, total]) => ({ value: `tag:${tag}`, label: tag, count: total })), { value: 'untagged', label: '未标注类型', count: count(g => !gameTypes(g).length) }],
     development: [all('全部开发方式'), { value: 'maker', label: 'TapTap 制造', count: count(g => has(g, 4)) }, { value: 'other', label: '其他开发方式', count: count(g => !has(g, 4)) }],
-    platform: [all('全部平台'), { value: '1', label: '支持手机', count: count(g => has(g, 1)) }, { value: '2', label: '支持 PC', count: count(g => has(g, 2)) }, { value: '3', label: '手机 + PC 双端', count: count(g => has(g, 3)) }],
+    platform: [all('全部平台'), { value: '1', label: '手机可玩（含双端）', count: count(g => has(g, 1)) }, { value: '2', label: 'PC 可玩（含双端）', count: count(g => has(g, 2)) }, { value: '3', label: '手机 + PC 双端', count: count(g => has(g, 3)) }],
     team: [all('全部团队'), { value: 'student', label: '学生团队', count: count(g => has(g, 5)) }],
   };
 }

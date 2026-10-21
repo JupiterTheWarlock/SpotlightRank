@@ -61,8 +61,14 @@ export class ValueDropdown {
       event.preventDefault();
       buttons[index]?.focus();
     });
-    root.addEventListener('focusout', () => {
-      queueMicrotask(() => { if (!root.contains(document.activeElement)) this.close(); });
+    root.addEventListener('focusout', event => {
+      // During a native pointer focus transition, activeElement can briefly be
+      // body. Use the destination so moving between options keeps them visible.
+      if (event.relatedTarget) {
+        if (!root.contains(event.relatedTarget)) this.close();
+        return;
+      }
+      setTimeout(() => { if (!root.contains(document.activeElement)) this.close(); }, 0);
     });
   }
 
