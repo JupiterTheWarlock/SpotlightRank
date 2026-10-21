@@ -17,6 +17,9 @@ test('其他网页不能调用本机接口；失败不伪造成功数据', async
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   t.after(() => new Promise(resolve => server.close(resolve)));
   const base = `http://127.0.0.1:${server.address().port}`;
+  const config = await (await fetch(`${base}/runtime.json`)).json();
+  assert.equal(config.runtime, 'local');
+  assert.equal(config.canRefresh, true);
   const denied = await fetch(`${base}/api/categories`, { headers: { Origin: 'https://example.com' } });
   assert.equal(denied.status, 403);
   assert.equal(calls, 0);

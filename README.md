@@ -1,20 +1,22 @@
 # 聚光榜 · Spotlight Rank
 
-聚光灯 2026 GameJam 排名站，支持 Cloudflare Pages 网页版和本机运行。公开接口按需取数据，IndexedDB 保存各自浏览器的缓存。没有共享数据库、账号登录或预置作品清单。
+聚光灯 2026 GameJam 排名站。线上是纯静态榜单，每小时计划采集、提交并发布一次；本机运行时可直接连接 TapTap 手动更新。筛选、排序、收藏和缓存由浏览器处理，不需要账号。
 
 网页版：**https://spotlight.jupiterthewarlock.com**。作者署名链接到个人网站，个人网站的“工具”菜单提供本工具入口。
+
+公开仓库：**https://github.com/JupiterTheWarlock/SpotlightRank**。页面会显示实际数据时间；GitHub 定时任务可能排队或失败，不保证恰好每小时整点完成。
 
 ## 本地试用
 
 需要 Node.js 22 或更新版本。不需要安装 npm 依赖，也不需要构建。
 
-Windows 双击 `start.cmd`，然后打开 **http://127.0.0.1:4178**。也可以在项目目录运行：
+在仓库选择 **Code → Download ZIP** 并解压。Windows 双击 `start.cmd`，然后打开 **http://127.0.0.1:4178**。也可以在项目目录运行：
 
 ```sh
 node server.mjs
 ```
 
-点击「获取本届数据」。首次获取完成后，重新打开会直接读取当前浏览器的缓存。手动点击更新才重新连接 TapTap。服务只监听 `127.0.0.1`，其他电脑不能直接访问这个地址；分发给别人后，由对方在自己的电脑启动。
+打开时会载入随仓库附带的榜单文件和浏览器缓存，优先保留更新的一份。点击「更新本届数据」才直接从自己的电脑连接 TapTap。服务只监听 `127.0.0.1`，无需租服务器。在线静态页面的更新按钮会禁用，并提供本地运行说明和仓库链接。
 
 ## 功能
 
@@ -27,6 +29,10 @@ node server.mjs
 
 ## 数据如何流动
 
+线上：GitHub Actions 定时采集 → 更新 `public/data/latest.json` → 提交推送 → 构建并直接上传 Cloudflare Pages。访客只下载静态榜单文件，没有 Pages Function、Worker 转发、R2 或数据库。打开页面检查新发布的文件；失败时仍可读浏览器旧缓存。
+
+本地：
+
 ```text
 你的浏览器  →  你电脑上的 Node 服务  →  TapTap 公开只读接口
     ↓                    不存储作品数据
@@ -36,7 +42,7 @@ IndexedDB
 
 TapTap 实测没有返回允许任意网页跨域读取的 CORS 响应头，因此一个独立 HTML 文件不能直接读取这些接口。本机服务解决这个浏览器限制：它只允许固定的 TapTap 公开读取路径，不转发账号 Cookie，不提供任意 URL 代理，不把取得的数据写入项目或服务器磁盘。
 
-网页版使用 Cloudflare Pages 托管静态界面，Pages Function 即时转发同样的公开请求。它不使用 KV、D1、对象存储或共享数据缓存，响应设置为 `private, no-store`，也不传递访客 Cookie 或登录凭据。请求经过 Cloudflare，作品数据只保留在各自浏览器。它与本地版分属不同站点地址，因此浏览器缓存不互通。
+完整公开榜单作为独立 JSON 数据文件随发布提交，不混入程序代码。收藏、浏览器偏好、账号凭据和日志不会进入该文件。本地与在线地址的浏览器缓存相互独立。
 
 `app.config.json` 只有赛事编号与端口配置，**不是作品数据**。默认现代赛事编号 `eventId=28`，分类/批量明细编号 `gameJamId=3`；两套编号不可互换。更换赛事时需先验证对应关系。
 
@@ -47,7 +53,7 @@ TapTap 实测没有返回允许任意网页跨域读取的 CORS 响应头，因�
 - `/app/v1/multi-get-full-platform`：关注数、玩家评分、评价数等。
 - `/activity/game-jam/v1/event-detail`：赛事名称等元数据。
 
-以上路径均位于 `https://www.taptap.cn/webapiv2`，匿名读取，无需 Cookie。接口属于网站现用接口，不是有稳定性承诺的开发者开放 API；结构变化时工具会提示错误并保留旧缓存。请求并发为 2，统计每批 20 款，明细每批 100 款；没有轮询或后台自动抓取。
+以上路径均位于 `https://www.taptap.cn/webapiv2`，匿名读取，无需 Cookie。接口属于网站现用接口，不是有稳定性承诺的开发者开放 API；结构变化时工具会提示错误并保留旧榜单。请求并发为 2，统计每批 20 款，明细每批 100 款；访客浏览器不在后台自动抓取。
 
 ## 排名口径
 
@@ -58,7 +64,7 @@ TapTap 实测没有返回允许任意网页跨域读取的 CORS 响应头，因�
 - **官方返回名次**：原始 `rank`，不重排、不填补缺口，显示排名刷新时间；不称为评委成绩或最终比赛名次。
 - **活动热度**：按 `play_uv` 原始数值降序，不将它宣称为去水后的有效试玩人数。
 - **评分榜**：按作品公开玩家评分排序，默认至少 5 条评价，可以调整门槛；不额外造“官方综合分”。
-- **热度变化**：同一作品在本浏览器最近两次完整快照之间的差值，不是固定 24 小时增量。新出现作品无可比基线，不参与；负向修正保留负值。
+- **热度变化**：榜单所记录的两次完整采集之间的差值，页面显示准确起止时间。线上对比定时采集，本地更新对比本机持有的上一份榜单；不是固定 24 小时增量。新出现作品无可比基线，不参与；负向修正保留负值。
 
 类别目录代表活动收录，不能据此认定最终审核通过。不同接口的收录范围、统计时刻和缓存周期不完全相同。
 
@@ -72,14 +78,21 @@ TapTap 实测没有返回允许任意网页跨域读取的 CORS 响应头，因�
 
 网页版直接分享网址即可，无需安装。本地版可以把项目源文件压缩发给别人，对方需要 Node.js 22+。不要把浏览器用户目录、缓存导出文件、测试截图或 `.local` 日志打进去。
 
-## Pages 发布
+## 每小时更新与 Pages 发布
+
+`.github/workflows/update.yml` 每小时第 17 分钟运行，另支持手动触发和推送源码后发布。流程先运行测试，再采集全部作品并验证完整性，只提交 `public/data/latest.json`，随后部署到现有 Pages 项目。采集失败时不会覆盖旧文件或发布空榜单；部署失败会在 Actions 显示失败，可手动重跑。自动提交使用 `GITHUB_TOKEN`，不会递归触发同一工作流。
+
+维护者需要配置仓库 Secret `CLOUDFLARE_API_TOKEN`（仅目标账户的 Cloudflare Pages 编辑权限）和 Variable `CLOUDFLARE_ACCOUNT_ID`。密钥不写入源码或日志。普通使用者在本机运行无需任何密钥。Fork 后默认不执行原站的自动发布；如需自建自动发布，应修改仓库判断、项目名，并配置自己的凭据。
+
+手动采集和构建：
 
 ```sh
+node scripts/collect-data.mjs
 node scripts/build-pages.mjs
 wrangler pages deploy dist/pages --project-name spotlight-rank-2026 --branch main
 ```
 
-仅发布 `dist/pages` 中经过白名单筛选的页面与转发代码，不发布整个项目目录。域名 `spotlight.jupiterthewarlock.com` 绑定该 Pages 项目。本地版继续用 `node server.mjs`，不依赖 Cloudflare。
+仅发布 `dist/pages` 中经过白名单筛选的页面、运行方式配置与榜单 JSON，不发布整个项目目录。构建会移除旧的 `_worker.js` 和 `_routes.json`，生成 `404.html`，不提供在线 API。域名 `spotlight.jupiterthewarlock.com` 继续绑定原 Pages 项目。
 
 ## 验证
 

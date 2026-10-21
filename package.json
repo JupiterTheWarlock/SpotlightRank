@@ -1,6 +1,6 @@
 {
   "name": "spotlight-rank",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test",
-    "build:pages": "node scripts/build-pages.mjs"
+    "build:pages": "node scripts/build-pages.mjs",
+    "collect": "node scripts/collect-data.mjs"
   }
 }

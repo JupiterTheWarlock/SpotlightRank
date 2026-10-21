@@ -1,6 +1,8 @@
-import { metrics, normalizeGame, selectGames, filterOptions, summary, csv } from './model.js';
+import { metrics, selectGames, filterOptions, summary, csv } from './model.js';
 import { read, write, commitSnapshot, clearSnapshots } from './storage.js';
 import { ValueDropdown } from './dropdown.js';
+import { collectSnapshot } from './collector.js';
+import { validateSnapshot, newerSnapshot } from './snapshot.js';
 
 const $ = id => document.getElementById(id);
 const number = new Intl.NumberFormat('zh-CN', { maximumFractionDigits: 1 });
@@ -37,6 +39,7 @@ const format = value => value === null || value === undefined ? '—' : number.f
 const compact = value => value >= 10000 ? `${number.format(value / 10000)}万` : format(value);
 const cacheKey = () => `snapshot:${state.config.eventId}:${state.config.gameJamId}`;
 const stamp = time => time ? dateTime.format(new Date(time)) : '未知';
+const canRefresh = () => state.config?.runtime === 'local' && state.config?.canRefresh === true;
 
 function notice(message = '', error = false) {
   $('notice').hidden = !message;
@@ -69,35 +72,18 @@ async function request(path, signal, retry = true) {
   }
 }
 
-async function pool(tasks, handler, signal) {
-  let next = 0;
-  const results = [];
-  await Promise.all(Array.from({ length: Math.min(2, tasks.length) }, async () => {
-    while (next < tasks.length) {
-      if (signal.aborted) throw new DOMException('已取消', 'AbortError');
-      const index = next++;
-      results[index] = await handler(tasks[index], index);
-      await new Promise(resolve => setTimeout(resolve, 60));
-    }
-  }));
-  return results;
-}
-
-function chunks(items, size) {
-  return Array.from({ length: Math.ceil(items.length / size) }, (_, i) => items.slice(i * size, (i + 1) * size));
-}
-
 function setLoading(loading) {
   state.loading = loading;
-  $('refresh-button').disabled = loading || !state.config;
+  $('refresh-button').disabled = loading || !canRefresh();
+  $('refresh-button').title = canRefresh() ? '从本机连接 TapTap 更新' : '当前为静态站；请按下方说明在本地运行后更新';
   $('sync-progress').hidden = !loading;
   $('clear-cache').disabled = loading || !state.snapshot;
-  $('refresh-label').textContent = loading ? '正在更新…' : state.snapshot ? '更新本届数据' : '获取本届数据';
-  $('cache-pill').textContent = loading ? '更新中' : state.snapshot ? '浏览器缓存' : '尚未获取';
+  $('refresh-label').textContent = loading ? '正在更新…' : !canRefresh() ? '本地运行后可更新' : state.snapshot ? '更新本届数据' : '获取本届数据';
+  $('cache-pill').textContent = loading ? '更新中' : state.snapshot ? (canRefresh() ? '浏览器缓存' : '已发布榜单') : '等待载入';
 }
 
 async function refresh() {
-  if (state.loading || !state.config) return;
+  if (state.loading || !canRefresh()) return;
   if (navigator.locks) {
     await navigator.locks.request(`spotlight-refresh:${cacheKey()}`, { ifAvailable: true }, async lock => {
       if (!lock) return notice('另一个窗口正在更新这届赛事，请等它完成后刷新页面。');
@@ -110,53 +96,12 @@ async function updateSnapshot() {
   const controller = new AbortController();
   state.controller = controller;
   const signal = controller.signal;
-  const startedAt = Date.now();
   setLoading(true);
   notice();
   progress(0, '读取本届作品目录…');
   try {
     const previous = await read(cacheKey());
-    const oldById = new Map((previous?.games || []).map(g => [g.id, g]));
-    const categoryResponse = await request('/api/categories', signal);
-    const rawCategories = categoryResponse.data?.list;
-    if (!Array.isArray(rawCategories)) throw new Error('官方目录结构发生变化，本次没有覆盖旧缓存。');
-    const all = rawCategories.find(c => Number(c.id) === 0);
-    if (!all || !Array.isArray(all.identifications) || !all.identifications.length) throw new Error('官方目录暂未返回作品，旧缓存已保留，请稍后再试。');
-    const ids = [...new Set(all.identifications.map(String))];
-    if (ids.some(id => !/^\d{1,12}$/.test(id))) throw new Error('目录含有无法识别的作品编号，请稍后重试。');
-    const categories = rawCategories.filter(c => Number(c.id) !== 0).map(c => ({ id: Number(c.id), title: String(c.title), ids: new Set((c.identifications || []).map(String)) }));
-    let completed = 0;
-    const gameResults = await pool(chunks(ids, 100), async batch => {
-      const data = await request(`/api/games?ids=${batch.join(',')}`, signal);
-      if (!Array.isArray(data.data?.list)) throw new Error('作品明细格式发生变化，旧缓存已保留。');
-      completed += batch.length;
-      progress(4 + completed / ids.length * 26, `获取作品 ${format(completed)} / ${format(ids.length)}`);
-      return data.data.list;
-    }, signal);
-    const games = new Map(gameResults.flat().map(g => [String(g.id), g]));
-    const missing = ids.filter(id => !games.has(id));
-    if (missing.length) throw new Error(`目录中有 ${missing.length} 款暂未返回明细，本次更新未保存，请稍后重试。`);
-    completed = 0;
-    const statsResults = await pool(chunks(ids, 20), async batch => {
-      const data = await request(`/api/stats?ids=${batch.join(',')}`, signal);
-      if (!Array.isArray(data.data?.list)) throw new Error('作品统计格式发生变化，旧缓存已保留。');
-      completed += batch.length;
-      progress(30 + completed / ids.length * 65, `获取关注与评分 ${format(completed)} / ${format(ids.length)}`);
-      return data.data.list;
-    }, signal);
-    const stats = new Map(statsResults.flat().map(g => [String(g.id), g]));
-    let event = previous?.event || null;
-    try { const result = await request('/api/event', signal, false); event = result.data?.event || result.data; }
-    catch (error) { if (signal.aborted) throw error; }
-    if (signal.aborted) throw new DOMException('已取消', 'AbortError');
-    const snapshot = {
-      schema: 1, config: state.config, event, startedAt, fetchedAt: Date.now(),
-      previousAt: previous?.fetchedAt || null,
-      expectedCount: ids.length,
-      missingStats: ids.filter(id => !stats.get(id)?.stat).length,
-      categories: categories.map(c => ({ id: c.id, title: c.title, count: c.ids.size })),
-      games: ids.map(id => normalizeGame(games.get(id), stats.get(id), oldById.get(id), categories)),
-    };
+    const snapshot = await collectSnapshot({ config: state.config, previous, request, signal, onProgress: progress });
     progress(98, '保存到浏览器…');
     await commitSnapshot(cacheKey(), snapshot);
     state.snapshot = snapshot;
@@ -185,11 +130,12 @@ function renderSnapshot() {
   $('stat-rated').textContent = totals ? format(totals.rated) : '—';
   $('stat-coverage').textContent = snapshot ? `目录 ${format(snapshot.expectedCount)} 款 · 全部明细已获取` : '等待获取官方目录';
   $('sync-time').textContent = snapshot ? stamp(snapshot.fetchedAt) : '从最新数据开始';
-  $('sync-caption').textContent = snapshot ? `已保存 ${format(snapshot.games.length)} 款作品，再次打开无需重新获取。` : '首次获取需要一点时间，之后打开会直接读取缓存。';
-  $('sync-footnote').textContent = snapshot ? `更新耗时 ${Math.round((snapshot.fetchedAt - snapshot.startedAt) / 1000)} 秒 · 数据仅在浏览器` : '无需登录 · 手动更新 · 无共享数据库';
-  const hosted = state.config?.runtime === 'cloudflare';
-  $('runtime-label').textContent = hosted ? '浏览器缓存' : '本机运行';
-  $('data-route').textContent = hosted ? '名单和统计来自 TapTap 的公开接口。Cloudflare 仅托管网页并即时转发公开读取请求，不保存作品数据，不需要登录。浏览器使用 IndexedDB 保存最近两次完整快照、筛选偏好和收藏。' : '名单和统计来自 TapTap 的公开接口。本机服务只转发读取请求，不保存作品数据，不需要账号或云服务器。浏览器使用 IndexedDB 保存最近两次完整快照、筛选偏好和收藏。';
+  const local = canRefresh();
+  $('sync-caption').textContent = snapshot ? '数据时间如上。筛选、排序和收藏均在当前浏览器完成。' : '正在载入已发布的榜单。';
+  $('sync-footnote').textContent = local ? '本机直接获取 · 手动更新 · 浏览器缓存' : '每小时计划更新 · 以上为实际数据时间';
+  $('runtime-label').textContent = local ? '本机运行' : '静态榜单';
+  $('local-guide').hidden = local;
+  $('data-route').textContent = local ? '本机服务只转发 TapTap 公开读取请求，不需要账号或云服务器。可以手动更新，并将最近两份榜单保存到当前浏览器。' : '定时任务每小时采集 TapTap 公开数据，将完整榜单提交到公开仓库并部署。网页读取已发布的文件，不运行云端转发。采集失败时保留上一份榜单；计划任务可能延迟，请以实际数据时间为准。';
   const event = snapshot?.event;
   if (event?.year && event?.event_name) $('event-eyebrow').textContent = `${event.year} ${event.brand?.name || 'TapTap 聚光灯'} · ${event.event_name}`;
   renderFilters();
@@ -262,7 +208,7 @@ function renderRanking() {
   if (!visible.length) {
     let title = '没有符合条件的作品';
     let description = `当前筛选：${$('filter-summary').textContent}。试试放宽条件，或重置筛选。`;
-    if (!state.snapshot) { title = '让本届作品，在这里涌现'; description = '点击「获取本届数据」，生成属于你的本地榜单。项目不附带任何预置作品数据。'; }
+    if (!state.snapshot) { title = '让本届作品，在这里涌现'; description = canRefresh() ? '点击「获取本届数据」，从本机获取榜单。' : '已发布榜单暂时无法载入。请重新打开页面，或按上方说明在本地运行。'; }
     else if (state.metric === 'growth' && !state.snapshot.previousAt) { title = '下一次更新，就能看见变化'; description = '首次快照已保存。稍后再次更新，即可比较两次获取之间的热度变化。'; }
     else if (state.metric === 'official' && !selection.rankedCount) { title = '接口尚未返回这一分组的名次'; description = '可以切换到活动热度、关注或评分榜，查看本地计算的排序。'; }
     else if (state.metric === 'rating' && !selection.rankedCount) { title = '暂无符合评价数门槛的作品'; description = '降低最低评价数，或查看其他作品分组。'; }
@@ -336,18 +282,33 @@ document.addEventListener('keydown', event => {
 async function init() {
   $('refresh-button').disabled = true;
   try {
-    state.config = await request('/api/config');
-    const [snapshot, preferences] = await Promise.all([read(cacheKey()), read('preferences')]);
-    if (snapshot?.schema === 1 && Array.isArray(snapshot.games)) state.snapshot = snapshot;
-    if (preferences) {
-      state.favorites = Array.isArray(preferences.favorites) ? preferences.favorites.map(String) : [];
-      if (metrics[preferences.metric]) state.metric = preferences.metric;
-      if ([0, 5, 10, 30].includes(preferences.minReviews)) state.minReviews = preferences.minReviews;
-      for (const key of Object.keys(filterLabels)) if (typeof preferences.filters?.[key] === 'string') state[key] = preferences.filters[key];
+    state.config = await request('/runtime.json', undefined, false);
+    let cached = null;
+    try {
+      const [snapshot, preferences] = await Promise.all([read(cacheKey()), read('preferences')]);
+      if (snapshot) cached = validateSnapshot(snapshot, state.config);
+      if (preferences) {
+        state.favorites = Array.isArray(preferences.favorites) ? preferences.favorites.map(String) : [];
+        if (metrics[preferences.metric]) state.metric = preferences.metric;
+        if ([0, 5, 10, 30].includes(preferences.minReviews)) state.minReviews = preferences.minReviews;
+        for (const key of Object.keys(filterLabels)) if (typeof preferences.filters?.[key] === 'string') state[key] = preferences.filters[key];
+      }
+    } catch { notice('浏览器缓存暂不可用，本次仍可读取已发布榜单。'); }
+    state.snapshot = cached;
+    renderSnapshot();
+    try {
+      const published = validateSnapshot(await request('/data/latest.json', undefined, false), state.config);
+      state.snapshot = newerSnapshot(cached, published);
+      if (state.snapshot !== cached) {
+        try { await commitSnapshot(cacheKey(), state.snapshot); }
+        catch { notice('榜单已载入，但浏览器未允许保存缓存。'); }
+      }
+    } catch {
+      if (!canRefresh()) notice(cached ? '暂时无法载入已发布榜单，正在显示上次缓存。' : '已发布榜单暂时无法载入，请稍后重新打开页面。', !cached);
     }
     renderSnapshot();
-    if (snapshot && Date.now() - snapshot.fetchedAt > 6 * 60 * 60 * 1000) notice('正在显示六小时前的缓存。需要最新排名时，请点击「更新本届数据」。');
-  } catch (error) { notice(error.message || '本机服务未连接，请重新运行启动脚本。', true); }
+    if (state.snapshot && Date.now() - state.snapshot.fetchedAt > 3 * 60 * 60 * 1000) notice(canRefresh() ? '当前数据已超过三小时，可点击更新。' : '当前数据已超过三小时，定时更新可能延迟或失败。可在公开仓库查看任务状态，或自行本地更新。');
+  } catch (error) { notice(error.message || '页面配置未载入，请重新打开页面。', true); }
 }
 
 renderFilters();

@@ -10,6 +10,9 @@ const settings = JSON.parse(await readFile(path.join(root, 'app.config.json'), '
 const assets = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/app.js', ['app.js', 'text/javascript; charset=utf-8']],
+  ['/collector.js', ['collector.js', 'text/javascript; charset=utf-8']],
+  ['/snapshot.js', ['snapshot.js', 'text/javascript; charset=utf-8']],
+  ['/data/latest.json', ['data/latest.json', 'application/json; charset=utf-8']],
   ['/model.js', ['model.js', 'text/javascript; charset=utf-8']],
   ['/dropdown.js', ['dropdown.js', 'text/javascript; charset=utf-8']],
   ['/storage.js', ['storage.js', 'text/javascript; charset=utf-8']],
@@ -35,7 +38,7 @@ export function createServer({ fetcher = fetch, config = settings } = {}) {
     if (req.headers.origin && req.headers.origin !== `http://${host}`) return sendJson(res, 403, { error: '不接受其他网页发起的请求。' });
     if (req.method !== 'GET' && req.method !== 'HEAD') return sendJson(res, 405, { error: '仅支持读取。' });
     const url = new URL(req.url, `http://${host}`);
-    if (url.pathname === '/api/config') return sendJson(res, 200, { eventId: config.eventId, gameJamId: config.gameJamId, version: '0.2.0', runtime: 'local' });
+    if (url.pathname === '/runtime.json' || url.pathname === '/api/config') return sendJson(res, 200, { eventId: config.eventId, gameJamId: config.gameJamId, version: '0.3.0', runtime: 'local', canRefresh: true });
     if (url.pathname === '/api/health') return sendJson(res, 200, { ok: true, storage: 'browser-only' });
     if (url.pathname.startsWith('/api/')) {
       let upstream;

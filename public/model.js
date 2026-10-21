@@ -4,7 +4,7 @@ export const metrics = {
   rating: { label: '评分榜', short: '评分', hint: '按 TapTap 玩家评分降序排列，可设置最低评价数。未评分作品不参与。', field: 'rating' },
   reviews: { label: '评价榜', short: '评价', hint: '按作品评价数量降序排列。', field: 'reviews' },
   official: { label: '官方返回名次', short: '官方名次', hint: '原样展示活动接口的 rank；未返回的作品不补造名次。这不是评委成绩或获奖排名。', field: 'officialRank', ascending: true },
-  growth: { label: '热度变化', short: '变化', hint: '比较本浏览器最近两次完整更新的热度差。它不是官方日榜；新出现作品不参与增量排名。', field: 'growth' },
+  growth: { label: '热度变化', short: '变化', hint: '比较榜单记录的两次完整采集的热度差。它不是官方日榜；新出现作品不参与增量排名。', field: 'growth' },
 };
 
 export function numeric(value) {
