@@ -1,8 +1,6 @@
 name: 每小时更新并发布榜单
 
 on:
-  schedule:
-    - cron: '39 * * * *'
   workflow_dispatch:
   push:
     branches: [main]

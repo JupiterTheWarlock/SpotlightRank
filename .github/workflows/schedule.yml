@@ -1,0 +1,32 @@
+name: 检查榜单是否需要更新
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: spotlight-scheduler
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: github.repository == 'JupiterTheWarlock/SpotlightRank'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: 超过一小时未成功发布才启动更新
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/schedule-update.mjs
