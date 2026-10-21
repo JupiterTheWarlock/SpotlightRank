@@ -4,7 +4,7 @@ import { collectSnapshot } from '../public/collector.js';
 import { validateSnapshot, newerSnapshot } from '../public/snapshot.js';
 const config = { eventId: 28, gameJamId: 3 };
 const request = async route => {
-  if (route === '/api/categories') return { data: { list: [{ id: 0, title: '全部', identifications: [1, 2] }, { id: 3, title: '双端', identifications: [1] }] } };
+  if (route === '/api/categories') return { data: { list: [{ id: 0, title: '全部', identifications: [2, 1] }, { id: 3, title: '双端', identifications: [1] }] } };
   if (route.startsWith('/api/games')) return { data: { list: [{ id: 1, title: '作品一', play_uv: 10 }, { id: 2, title: '作品二', play_uv: 0 }] } };
   if (route.startsWith('/api/stats')) return { data: { list: [{ id: 1, stat: { fans_count: 2, rating: { score: 8 }, review_count: 5 }, tags: [{ value: '休闲' }] }] } };
   return { data: { event: { year: 2026, event_name: '测试赛事' } } };
@@ -14,6 +14,7 @@ test('定时与本地采集共用完整数据模型，保留零值、缺失值�
   const previous = { fetchedAt: 1000, games: [{ id: '1', heat: 12 }] };
   const snapshot = await collectSnapshot({ config, previous, request });
   assert.equal(snapshot.games.length, 2);
+  assert.deepEqual(snapshot.games.map(game => game.id), ['1', '2']);
   assert.equal(snapshot.games[0].growth, -2);
   assert.equal(snapshot.games[1].heat, 0);
   assert.equal(snapshot.games[1].fans, null);

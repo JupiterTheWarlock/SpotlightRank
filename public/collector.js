@@ -29,7 +29,9 @@ export async function collectSnapshot({ config, previous = null, request, signal
   if (!all || !Array.isArray(all.identifications) || !all.identifications.length) throw new Error('官方目录暂未返回作品，旧榜单已保留。');
   const ids = [...new Set(all.identifications.map(String))];
   if (ids.some(id => !/^\d{1,12}$/.test(id))) throw new Error('目录含有无法识别的作品编号。');
-  const categories = rawCategories.filter(c => Number(c.id) !== 0).map(c => ({ id: Number(c.id), title: String(c.title), ids: new Set((c.identifications || []).map(String)) }));
+  // The upstream directory is shuffled; stable ordering keeps hourly Git diffs useful.
+  ids.sort((a, b) => Number(a) - Number(b));
+  const categories = rawCategories.filter(c => Number(c.id) !== 0).map(c => ({ id: Number(c.id), title: String(c.title), ids: new Set((c.identifications || []).map(String)) })).sort((a, b) => a.id - b.id);
   let completed = 0;
   const gameResults = await pool(chunks(ids, 100), async batch => {
     const data = await request(`/api/games?ids=${batch.join(',')}`, signal);
