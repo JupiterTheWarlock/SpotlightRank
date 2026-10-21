@@ -80,7 +80,9 @@ TapTap 实测没有返回允许任意网页跨域读取的 CORS 响应头，因�
 
 ## 每小时更新与 Pages 发布
 
-`.github/workflows/update.yml` 每小时第 17 分钟运行，另支持手动触发和推送源码后发布。流程先运行测试，再采集全部作品并验证完整性，只提交 `public/data/latest.json`，随后部署到现有 Pages 项目。采集失败时不会覆盖旧文件或发布空榜单；部署失败会在 Actions 显示失败，可手动重跑。自动提交使用 `GITHUB_TOKEN`，不会递归触发同一工作流。
+`.github/workflows/update.yml` 计划在每小时第 39 分钟运行，另支持手动触发和推送源码后发布。流程先运行测试，再采集全部作品并验证完整性，只提交 `public/data/latest.json`，随后部署到现有 Pages 项目。采集失败时不会覆盖旧文件或发布空榜单；部署失败会在 Actions 显示失败，可手动重跑。自动提交使用 `GITHUB_TOKEN`，不会递归触发同一工作流。
+
+排查更新停滞时，先核对 Actions 是否有 `schedule` 类型的运行记录；手动运行或推送后的成功记录只能证明采集和发布流程可用，不能证明定时触发正常。若没有定时记录，检查默认分支、工作流启用状态与运行权限，并参考 [GitHub 定时任务排查说明](https://docs.github.com/en/actions/how-tos/troubleshoot-workflows)。
 
 维护者需要配置仓库 Secret `CLOUDFLARE_API_TOKEN`（仅目标账户的 Cloudflare Pages 编辑权限）和 Variable `CLOUDFLARE_ACCOUNT_ID`。密钥不写入源码或日志。普通使用者在本机运行无需任何密钥。Fork 后默认不执行原站的自动发布；如需自建自动发布，应修改仓库判断、项目名，并配置自己的凭据。
 

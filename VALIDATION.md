@@ -9,7 +9,7 @@
 - 静态预览只请求 `runtime.json` 和 `data/latest.json`，更新按钮禁用，本地运行说明和公开仓库链接可见。
 - 本地服务返回可更新配置，手动按钮启用；网页与定时任务共用采集模块。
 - 纯静态构建移除旧 `_worker.js` 和 `_routes.json`，保留 404 页面，不提供公开数据转发接口。
-- GitHub Actions 配置每小时第 17 分钟运行，完整采集后才替换文件、提交推送和部署。部署令牌以 GitHub 加密 Secret 保存，仅授予目标账户 Cloudflare Pages 编辑权限。
+- GitHub Actions 计划每小时第 39 分钟运行，完整采集后才替换文件、提交推送和部署。部署令牌以 GitHub 加密 Secret 保存，仅授予目标账户 Cloudflare Pages 编辑权限。定时触发须单独核对 `schedule` 类型的运行记录，手动运行或推送后的成功不能作为这一步的验收依据。
 
 ## 0.2.0：历史验证
 
