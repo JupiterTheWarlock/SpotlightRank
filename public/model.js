@@ -57,6 +57,16 @@ export function rankGames(games, metric) {
 const metadataTags = new Set(['聚光灯GameJam', 'TapTap制造']);
 export const gameTypes = game => [...new Set((game.tags || []).filter(tag => typeof tag === 'string' && tag.trim() && !metadataTags.has(tag)))];
 
+function platformGroup(game) {
+  const categories = game.categories || [];
+  const mobile = categories.includes(1);
+  const pc = categories.includes(2);
+  if (categories.includes(3) || (mobile && pc)) return '3';
+  if (mobile) return '1';
+  if (pc) return '2';
+  return null;
+}
+
 export function filterOptions(snapshot) {
   const games = snapshot?.games || [];
   const count = predicate => games.filter(predicate).length;
@@ -67,7 +77,7 @@ export function filterOptions(snapshot) {
   return {
     type: [all('全部类型'), ...[...tags].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-CN')).map(([tag, total]) => ({ value: `tag:${tag}`, label: tag, count: total })), { value: 'untagged', label: '未标注类型', count: count(g => !gameTypes(g).length) }],
     development: [all('全部开发方式'), { value: 'maker', label: 'TapTap 制造', count: count(g => has(g, 4)) }, { value: 'other', label: '其他开发方式', count: count(g => !has(g, 4)) }],
-    platform: [all('全部平台'), { value: '1', label: '手机可玩（含双端）', count: count(g => has(g, 1)) }, { value: '2', label: 'PC 可玩（含双端）', count: count(g => has(g, 2)) }, { value: '3', label: '手机 + PC 双端', count: count(g => has(g, 3)) }],
+    platform: [all('全部平台'), ...[['1', '仅手机'], ['2', '仅 PC'], ['3', '双端']].map(([value, label]) => ({ value, label, count: count(g => platformGroup(g) === value) }))],
     team: [all('全部团队'), { value: 'student', label: '学生团队', count: count(g => has(g, 5)) }],
   };
 }
@@ -77,7 +87,7 @@ export function selectGames(snapshot, { metric = 'heat', category = 'all', type 
   if (category !== 'all') scope = scope.filter(g => g.categories.includes(Number(category)));
   if (type !== 'all') scope = scope.filter(g => type === 'untagged' ? !gameTypes(g).length : gameTypes(g).includes(type.slice(4)));
   if (development !== 'all') scope = scope.filter(g => (g.categories || []).includes(4) === (development === 'maker'));
-  if (platform !== 'all') scope = scope.filter(g => (g.categories || []).includes(Number(platform)));
+  if (platform !== 'all') scope = scope.filter(g => platformGroup(g) === String(platform));
   if (team === 'student') scope = scope.filter(g => (g.categories || []).includes(5));
   if (metric === 'rating') scope = scope.filter(g => g.reviews !== null && g.reviews >= Number(minReviews));
   const ranked = rankGames(scope, metric);

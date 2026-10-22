@@ -59,8 +59,20 @@ test('类型选项来自缓存标签，去重并排除赛事和开发方式标�
   ] };
   const options = filterOptions(snapshot);
   assert.deepEqual(options.type.map(o => [o.value, o.count]), [['all', 3], ['tag:策略', 1], ['untagged', 2]]);
-  assert.deepEqual(options.platform.map(o => o.count), [3, 2, 2, 1]);
+  assert.deepEqual(options.platform.map(o => o.count), [3, 1, 1, 1]);
   assert.deepEqual(options.development.map(o => o.count), [3, 2, 1]);
   assert.deepEqual(selectGames(snapshot, { type: 'untagged' }).rows.map(g => g.id), ['2', '3']);
   assert.deepEqual(selectGames(snapshot, { type: 'tag:休闲' }).rows, []);
+});
+
+test('平台分为仅手机、仅 PC 和双端，三组互斥；未标注作品仅保留在全部平台', () => {
+  const snapshot = { games: [[1], [2], [1, 2, 3], [3], [1, 2], [1, 3], [2, 3], []].map((categories, index) => ({ ...games[0], id: String(index + 1), categories })) };
+  const options = filterOptions(snapshot).platform;
+  assert.deepEqual(options.map(option => [option.label, option.count]), [['全部平台', 8], ['仅手机', 1], ['仅 PC', 1], ['双端', 5]]);
+  const ids = value => selectGames(snapshot, { platform: value }).rows.map(game => game.id);
+  assert.deepEqual(ids('1'), ['1']);
+  assert.deepEqual(ids('2'), ['2']);
+  assert.deepEqual(ids('3'), ['3', '4', '5', '6', '7']);
+  assert.equal(ids('all').length, 8);
+  for (const option of options) assert.equal(ids(option.value).length, option.count);
 });
