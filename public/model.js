@@ -7,11 +7,13 @@ export const metrics = {
   growth: { label: '热度变化', short: '变化', hint: '比较榜单记录的两次完整采集的热度差。它不是官方日榜；新出现作品不参与增量排名。', field: 'growth' },
 };
 
-export function numeric(value) {
+export const numeric = value => {
   if (value === null || value === undefined || value === '') return null;
   const number = Number(value);
   return Number.isFinite(number) ? number : null;
-}
+};
+
+export const prevMetricFields = ['heat', 'fans', 'rating', 'reviews', 'officialRank', 'growth'];
 
 export function normalizeGame(game, statApp, previous, categories) {
   const stat = statApp?.stat;
@@ -32,6 +34,7 @@ export function normalizeGame(game, statApp, previous, categories) {
     rankUpdatedAt: numeric(game.rank_updated_at),
     votes: numeric(game.number_of_votes),
     growth: previous && heat !== null && previous.heat !== null ? heat - previous.heat : null,
+    prev: previous ? Object.fromEntries(prevMetricFields.map(key => [key, previous[key] ?? null])) : null,
     categories: categories.filter(c => c.ids.has(id)).map(c => c.id),
     tags: (statApp?.tags || game.tags || []).map(t => t.value).filter(Boolean),
     statsAvailable: Boolean(stat),
@@ -83,7 +86,8 @@ export function filterOptions(snapshot) {
 }
 
 export function selectGames(snapshot, { metric = 'heat', category = 'all', type = 'all', development = 'all', platform = 'all', team = 'all', query = '', favoritesOnly = false, favorites = [], minReviews = 5 } = {}) {
-  let scope = snapshot?.games || [];
+  const allGames = snapshot?.games || [];
+  let scope = allGames;
   if (category !== 'all') scope = scope.filter(g => g.categories.includes(Number(category)));
   if (type !== 'all') scope = scope.filter(g => type === 'untagged' ? !gameTypes(g).length : gameTypes(g).includes(type.slice(4)));
   if (development !== 'all') scope = scope.filter(g => (g.categories || []).includes(4) === (development === 'maker'));
@@ -93,10 +97,22 @@ export function selectGames(snapshot, { metric = 'heat', category = 'all', type 
   const ranked = rankGames(scope, metric);
   const needle = query.trim().toLocaleLowerCase();
   const pins = new Set(favorites.map(String));
+  // Rank changes are compared within the same filter scope, per leaderboard.
+  const spec = metrics[metric] || metrics.heat;
+  const hasPrev = allGames.some(game => game.prev);
+  const threshold = metric === 'rating' ? Number(minReviews) : -Infinity;
+  const prevPlaces = new Map((hasPrev ? rankGames(scope.filter(game => game.prev && game.prev[spec.field] !== null && game.prev[spec.field] !== undefined && (game.prev.reviews ?? -1) >= threshold).map(game => ({ id: game.id, [spec.field]: game.prev[spec.field] })), metric) : []).map(game => [game.id, game.place]));
   return {
     scopeCount: scope.length,
     rankedCount: ranked.length,
-    rows: ranked.filter(g => (!needle || g.title.toLocaleLowerCase().includes(needle) || g.id.includes(needle)) && (!favoritesOnly || pins.has(g.id))),
+    hasPrev,
+    rows: ranked.filter(g => (!needle || g.title.toLocaleLowerCase().includes(needle) || g.id.includes(needle)) && (!favoritesOnly || pins.has(g.id))).map(game => {
+      if (!hasPrev) return game;
+      const prevPlace = prevPlaces.get(game.id);
+      const rankDelta = prevPlace === undefined ? null : prevPlace - game.place;
+      const rankStatus = prevPlace === undefined ? 'new' : rankDelta > 0 ? 'up' : rankDelta < 0 ? 'down' : 'flat';
+      return { ...game, rankDelta, rankStatus };
+    }),
   };
 }
 
@@ -117,7 +133,15 @@ export function csv(rows) {
     if (/^[=+\-@\t\r]/.test(text)) text = `'${text}`;
     return `"${text.replaceAll('"', '""')}"`;
   };
-  const data = [['当前榜单名次', '游戏名', '作品ID', '活动热度', '关注人数', '玩家评分', '评价数', '接口原始名次', '较上次热度变化', '作品链接'],
-    ...rows.map(g => [g.place, g.title, g.id, g.heat, g.fans, g.rating, g.reviews, g.officialRank, g.growth, `https://www.taptap.cn/app/${g.id}`])];
+  const data = [['当前榜单名次', '较上次名次', '游戏名', '作品ID', '活动热度', '关注人数', '玩家评分', '评价数', '接口原始名次', '较上次热度变化', '作品链接'],
+    ...rows.map(g => [g.place, rankChange(g), g.title, g.id, g.heat, g.fans, g.rating, g.reviews, g.officialRank, g.growth, `https://www.taptap.cn/app/${g.id}`])];
   return '\uFEFF' + data.map(row => row.map(cells).join(',')).join('\r\n');
+}
+
+export function rankChange(game) {
+  if (game.rankStatus === 'new') return '新';
+  if (game.rankStatus === 'up') return `+${game.rankDelta}`;
+  if (game.rankStatus === 'down') return String(game.rankDelta);
+  if (game.rankStatus === 'flat') return '持平';
+  return '';
 }

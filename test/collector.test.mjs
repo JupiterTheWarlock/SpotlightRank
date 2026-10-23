@@ -20,6 +20,8 @@ test('定时与本地采集共用完整数据模型，保留零值、缺失值�
   assert.equal(snapshot.games[1].fans, null);
   assert.deepEqual(snapshot.games[0].categories, [3]);
   assert.deepEqual(snapshot.games[0].tags, ['休闲']);
+  assert.deepEqual(snapshot.games[0].prev, { heat: 12, fans: null, rating: null, reviews: null, officialRank: null, growth: null });
+  assert.equal(snapshot.games[1].prev, null);
   assert.equal(snapshot.previousAt, 1000);
   assert.equal(snapshot.missingStats, 1);
   assert.equal(validateSnapshot(JSON.parse(JSON.stringify(snapshot)), config).games.length, 2);
@@ -38,6 +40,7 @@ test('无效或不同赛事文件被拒绝，已缓存的新榜单不会被旧�
   assert.throws(() => validateSnapshot({ ...snapshot, config: { ...config, eventId: 1 } }, config));
   assert.throws(() => validateSnapshot({ ...snapshot, games: [snapshot.games[0], snapshot.games[0]] }, config));
   assert.throws(() => validateSnapshot({ ...snapshot, expectedCount: 3 }, config));
+  assert.throws(() => validateSnapshot({ ...snapshot, games: snapshot.games.map(g => ({ ...g, prev: { heat: '上升' } })) }, config));
   const newer = { ...snapshot, fetchedAt: snapshot.fetchedAt + 1000 };
   assert.equal(newerSnapshot(newer, snapshot), newer);
   assert.equal(newerSnapshot(snapshot, newer), newer);

@@ -156,6 +156,14 @@ function metricValue(game) {
   return format(value);
 }
 
+function rankDeltaMarkup(game) {
+  if (!game.rankStatus) return '';
+  if (game.rankStatus === 'new') return '<span class="rank-delta new" title="上次榜单没有这款作品">新</span>';
+  if (game.rankStatus === 'flat') return '<span class="rank-delta flat" title="名次与上次持平">—</span>';
+  const up = game.rankStatus === 'up';
+  return `<span class="rank-delta ${up ? 'up' : 'down'}" title="较上次${up ? '上升' : '下降'} ${Math.abs(game.rankDelta)} 名">${up ? '▲' : '▼'}${Math.abs(game.rankDelta)}</span>`;
+}
+
 function imageMarkup(game) {
   let url;
   try { url = new URL(game.icon); } catch {}
@@ -177,6 +185,7 @@ function renderRanking() {
     hint = `接口返回 ${format(selection.rankedCount)} 款名次${times.length ? ` · 排名刷新 ${stamp(Math.max(...times) * 1000)}` : ''}。不是评审成绩。`;
   }
   if (state.metric === 'growth' && state.snapshot?.previousAt) hint = `热度变化：${stamp(state.snapshot.previousAt)} → ${stamp(state.snapshot.fetchedAt)}。新出现的作品不参与增量排名。`;
+  if (state.metric !== 'growth' && selection.hasPrev && state.snapshot?.previousAt) hint += ` 名次变动对比 ${stamp(state.snapshot.previousAt)} 的同一筛选结果，新＝上次未上榜。`;
   $('metric-description').textContent = hint;
   $('rating-filter').hidden = state.metric !== 'rating';
   if (state.metric !== 'rating') reviewDropdown.close();
@@ -199,7 +208,7 @@ function renderRanking() {
     const labels = game.categories.map(id => state.snapshot.categories.find(c => c.id === id)?.title).filter(Boolean);
     const meta = labels.filter(label => !['手游', 'PC游戏'].includes(label)).slice(0, 2);
     const sub = state.metric === 'growth' ? `当前热度 ${format(game.heat)}` : state.metric === 'official' ? `活动热度 ${format(game.heat)}` : '';
-    return `<tr><td class="rank-cell ${game.place <= 3 ? 'top-rank' : ''}">${game.place <= 9 ? '0' : ''}${game.place}</td><td><div class="game-info">${imageMarkup(game)}<div class="game-text"><a class="game-title" href="https://www.taptap.cn/app/${game.id}" target="_blank" rel="noopener noreferrer" title="${escape(game.title)}">${escape(game.title)}</a><div class="game-meta">${meta.map(label => `<span class="tag">${escape(label)}</span>`).join('')}<span class="game-id">${game.id}</span></div></div></div></td><td class="number-cell primary-value ${state.metric === 'growth' && game.growth > 0 ? 'positive' : ''}">${metricValue(game)}${sub ? `<span class="metric-sub">${sub}</span>` : ''}</td><td class="number-cell detail-cell">${format(game.fans)}</td><td class="number-cell detail-cell"><span class="score-value">${game.rating === null ? '<span class="muted">暂无评分</span>' : `<span>✦</span>${game.rating.toFixed(1)}`}</span><span class="metric-sub">${format(game.reviews)} 条评价</span></td><td><button class="favorite-toggle" data-favorite="${game.id}" aria-label="${favorite ? '取消收藏' : '收藏'} ${escape(game.title)}" aria-pressed="${favorite}" title="${favorite ? '取消收藏' : '收藏'}">${favorite ? '★' : '☆'}</button></td></tr>`;
+    return `<tr><td class="rank-cell ${game.place <= 3 ? 'top-rank' : ''}"><div class="rank-stack"><span class="rank-place">${game.place <= 9 ? '0' : ''}${game.place}</span>${rankDeltaMarkup(game)}</div></td><td><div class="game-info">${imageMarkup(game)}<div class="game-text"><a class="game-title" href="https://www.taptap.cn/app/${game.id}" target="_blank" rel="noopener noreferrer" title="${escape(game.title)}">${escape(game.title)}</a><div class="game-meta">${meta.map(label => `<span class="tag">${escape(label)}</span>`).join('')}<span class="game-id">${game.id}</span></div></div></div></td><td class="number-cell primary-value ${state.metric === 'growth' && game.growth > 0 ? 'positive' : ''}">${metricValue(game)}${sub ? `<span class="metric-sub">${sub}</span>` : ''}</td><td class="number-cell detail-cell">${format(game.fans)}</td><td class="number-cell detail-cell"><span class="score-value">${game.rating === null ? '<span class="muted">暂无评分</span>' : `<span>✦</span>${game.rating.toFixed(1)}`}</span><span class="metric-sub">${format(game.reviews)} 条评价</span></td><td><button class="favorite-toggle" data-favorite="${game.id}" aria-label="${favorite ? '取消收藏' : '收藏'} ${escape(game.title)}" aria-pressed="${favorite}" title="${favorite ? '取消收藏' : '收藏'}">${favorite ? '★' : '☆'}</button></td></tr>`;
   }).join('');
   $('table-shell').hidden = !visible.length;
   $('empty-state').hidden = Boolean(visible.length);
