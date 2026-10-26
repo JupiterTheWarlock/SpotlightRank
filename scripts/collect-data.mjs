@@ -14,7 +14,10 @@ catch (error) { if (error.code !== 'ENOENT') throw error; }
 const controller = new AbortController();
 const deadline = setTimeout(() => controller.abort(), 8 * 60 * 1000);
 let lastProgress = -1;
-async function request(route, signal, retry = true) {
+// GitHub 的出口 IP 会被上游临时拒绝（HTTP 405），隔几秒重试通常就能过；
+// 429 是明确的限流信号，重试只会更糟，所以不重试。
+const retryable = status => status === 405 || status === undefined || status >= 500;
+async function request(route, signal, attempt = 0) {
   const url = new URL(route, 'http://localhost');
   try {
     const response = await fetch(upstreamUrl(url.pathname, url.searchParams, config), {
@@ -22,7 +25,8 @@ async function request(route, signal, retry = true) {
       signal: AbortSignal.any([signal, AbortSignal.timeout(25000)]), redirect: 'error',
     });
     if (!response.ok) {
-      const error = new Error(`TapTap 返回 HTTP ${response.status}`);
+      const detail = await response.text().catch(() => '');
+      const error = new Error(`TapTap 返回 HTTP ${response.status}${detail ? `：${detail.slice(0, 80)}` : ''}`);
       error.status = response.status;
       throw error;
     }
@@ -30,9 +34,9 @@ async function request(route, signal, retry = true) {
     if (data.success !== true) throw new Error('TapTap 没有返回有效数据');
     return data;
   } catch (error) {
-    if (retry && !signal.aborted && error.status !== 429 && (!error.status || error.status >= 500)) {
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      return request(route, signal, false);
+    if (!signal.aborted && retryable(error.status) && attempt < 3) {
+      await new Promise(resolve => setTimeout(resolve, 2000 * (attempt + 1)));
+      return request(route, signal, attempt + 1);
     }
     throw error;
   }

@@ -9,7 +9,7 @@ export function upstreamUrl(route, search, config) {
   } else if (route === '/api/games' || route === '/api/stats') {
     const raw = search.get('ids') || '';
     const ids = raw.split(',');
-    const limit = route === '/api/games' ? 100 : 20;
+    const limit = 100;
     if (!/^\d+(,\d+)*$/.test(raw) || ids.length > limit || ids.some(id => id.length > 12)) {
       throw new Error(`作品编号格式不正确，单次最多 ${limit} 个。`);
     }

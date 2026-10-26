@@ -45,7 +45,7 @@ export async function collectSnapshot({ config, previous = null, request, signal
   const missing = ids.filter(id => !games.has(id));
   if (missing.length) throw new Error(`目录中有 ${missing.length} 款未返回明细，本次更新未保存。`);
   completed = 0;
-  const statsResults = await pool(chunks(ids, 20), async batch => {
+  const statsResults = await pool(chunks(ids, 100), async batch => {
     const data = await request(`/api/stats?ids=${batch.join(',')}`, signal);
     if (!Array.isArray(data.data?.list)) throw new Error('作品统计格式发生变化，旧榜单已保留。');
     completed += batch.length;

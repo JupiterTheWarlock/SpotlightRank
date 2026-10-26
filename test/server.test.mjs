@@ -5,7 +5,7 @@ import { createServer, upstreamUrl } from '../server.mjs';
 test('转发仅允许固定TapTap接口和受限作品编号', () => {
   assert.equal(upstreamUrl('/api/anything', new URLSearchParams()), null);
   assert.throws(() => upstreamUrl('/api/games', new URLSearchParams({ ids: 'https://example.com' })));
-  assert.throws(() => upstreamUrl('/api/stats', new URLSearchParams({ ids: Array(21).fill('1').join(',') })));
+  assert.throws(() => upstreamUrl('/api/stats', new URLSearchParams({ ids: Array(101).fill('1').join(',') })));
   const url = upstreamUrl('/api/games', new URLSearchParams({ ids: '1,2', url: 'http://example.com' }));
   assert.equal(url.hostname, 'www.taptap.cn');
   assert.equal(url.searchParams.get('identifications'), '1,2');
