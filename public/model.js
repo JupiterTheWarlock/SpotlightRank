@@ -3,7 +3,7 @@ export const metrics = {
   fans: { label: '关注榜', short: '关注', hint: '按作品当前关注人数降序排列。', field: 'fans' },
   rating: { label: '评分榜', short: '评分', hint: '按 TapTap 玩家评分降序排列，可设置最低评价数。未评分作品不参与。', field: 'rating' },
   reviews: { label: '评价榜', short: '评价', hint: '按作品评价数量降序排列。', field: 'reviews' },
-  official: { label: '官方返回名次', short: '官方名次', hint: '原样展示活动接口的 rank；未返回的作品不补造名次。这不是评委成绩或获奖排名。', field: 'officialRank', ascending: true },
+  official: { label: '试玩人气榜', short: '人气', hint: '按 TapTap 试玩人气榜的名次展示。作品要被试玩满 10 分钟才能收到助力，榜单只公开前 100 名；名次取接口原值，不由本站按助力数重排，也不是评审成绩。', field: 'officialRank', ascending: true },
   growth: { label: '热度变化', short: '变化', hint: '比较榜单记录的两次完整采集的热度差。它不是官方日榜；新出现作品不参与增量排名。', field: 'growth' },
 };
 
@@ -15,7 +15,11 @@ export const numeric = value => {
 
 export const prevMetricFields = ['heat', 'fans', 'rating', 'reviews', 'officialRank', 'growth'];
 
-export function normalizeGame(game, statApp, previous, categories) {
+// TapTap 的 rank 字段在不同阶段会换口径（曾按热度，现按助力）。记下本次采集的口径，
+// 口径不同就不比较名次变动，避免拿两个不同的榜单相减。
+export const RANK_BASIS = 'votes';
+
+export function normalizeGame(game, statApp, previous, categories, options = {}) {
   const stat = statApp?.stat;
   const id = String(game.id);
   const heat = numeric(game.play_uv);
@@ -35,6 +39,7 @@ export function normalizeGame(game, statApp, previous, categories) {
     votes: numeric(game.number_of_votes),
     growth: previous && heat !== null && previous.heat !== null ? heat - previous.heat : null,
     prev: previous ? Object.fromEntries(prevMetricFields.map(key => [key, previous[key] ?? null])) : null,
+    prevRankComparable: previous ? options.rankComparable !== false : undefined,
     categories: categories.filter(c => c.ids.has(id)).map(c => c.id),
     tags: (statApp?.tags || game.tags || []).map(t => t.value).filter(Boolean),
     statsAvailable: Boolean(stat),
@@ -106,8 +111,11 @@ export function selectGames(snapshot, { metric = 'heat', category = 'all', type 
     scopeCount: scope.length,
     rankedCount: ranked.length,
     hasPrev,
+    rankComparable: metric !== 'official' || !scope.some(game => game.prevRankComparable === false),
     rows: ranked.filter(g => (!needle || g.title.toLocaleLowerCase().includes(needle) || g.id.includes(needle)) && (!favoritesOnly || pins.has(g.id))).map(game => {
       if (!hasPrev) return game;
+      // 人气榜口径变过的话，这次不画升降箭头，等下一个同口径快照再比。
+      if (metric === 'official' && game.prevRankComparable === false) return { ...game, rankDelta: null, rankStatus: null };
       const prevPlace = prevPlaces.get(game.id);
       const rankDelta = prevPlace === undefined ? null : prevPlace - game.place;
       const rankStatus = prevPlace === undefined ? 'new' : rankDelta > 0 ? 'up' : rankDelta < 0 ? 'down' : 'flat';
@@ -133,8 +141,8 @@ export function csv(rows) {
     if (/^[=+\-@\t\r]/.test(text)) text = `'${text}`;
     return `"${text.replaceAll('"', '""')}"`;
   };
-  const data = [['当前榜单名次', '较上次名次', '游戏名', '作品ID', '活动热度', '关注人数', '玩家评分', '评价数', '接口原始名次', '较上次热度变化', '作品链接'],
-    ...rows.map(g => [g.place, rankChange(g), g.title, g.id, g.heat, g.fans, g.rating, g.reviews, g.officialRank, g.growth, `https://www.taptap.cn/app/${g.id}`])];
+  const data = [['当前榜单名次', '较上次名次', '游戏名', '作品ID', '活动热度', '关注人数', '玩家评分', '评价数', '试玩人气名次', '助力数', '较上次热度变化', '作品链接'],
+    ...rows.map(g => [g.place, rankChange(g), g.title, g.id, g.heat, g.fans, g.rating, g.reviews, g.officialRank, g.votes, g.growth, `https://www.taptap.cn/app/${g.id}`])];
   return '\uFEFF' + data.map(row => row.map(cells).join(',')).join('\r\n');
 }
 

@@ -46,3 +46,14 @@ test('无效或不同赛事文件被拒绝，已缓存的新榜单不会被旧�
   assert.equal(newerSnapshot(snapshot, newer), newer);
   assert.equal(newerSnapshot(null, snapshot), snapshot);
 });
+
+test('人气榜口径变化时不拿两套名次相减', async () => {
+  const legacy = { fetchedAt: 1000, games: [{ id: '1', heat: 12, officialRank: 6 }] };
+  const fresh = await collectSnapshot({ config, previous: legacy, request });
+  assert.equal(fresh.rankBasis, 'votes');
+  assert.equal(fresh.games[0].prev.officialRank, 6);
+  assert.equal(fresh.games[0].prevRankComparable, false);
+  const same = await collectSnapshot({ config, previous: fresh, request });
+  assert.equal(same.games[0].prevRankComparable, true);
+  assert.throws(() => validateSnapshot({ ...fresh, rankBasis: 'heat' }, config));
+});

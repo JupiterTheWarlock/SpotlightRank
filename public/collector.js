@@ -1,4 +1,4 @@
-import { normalizeGame } from './model.js';
+import { normalizeGame, RANK_BASIS } from './model.js';
 import { validateSnapshot } from './snapshot.js';
 
 const chunks = (items, size) => Array.from({ length: Math.ceil(items.length / size) }, (_, i) => items.slice(i * size, (i + 1) * size));
@@ -22,6 +22,7 @@ export async function collectSnapshot({ config, previous = null, request, signal
   const startedAt = Date.now();
   check(signal);
   const oldById = new Map((previous?.games || []).map(g => [g.id, g]));
+  const rankComparable = previous?.rankBasis === RANK_BASIS;
   onProgress(0, '读取本届作品目录…');
   const rawCategories = (await request('/api/categories', signal)).data?.list;
   if (!Array.isArray(rawCategories)) throw new Error('官方目录结构发生变化，本次没有覆盖旧榜单。');
@@ -57,10 +58,10 @@ export async function collectSnapshot({ config, previous = null, request, signal
   catch (error) { check(signal); }
   check(signal);
   return validateSnapshot({
-    schema: 1, config: { eventId: config.eventId, gameJamId: config.gameJamId },
+    schema: 1, config: { eventId: config.eventId, gameJamId: config.gameJamId }, rankBasis: RANK_BASIS,
     event, startedAt, fetchedAt: Date.now(), previousAt: previous?.fetchedAt || null,
     expectedCount: ids.length, missingStats: ids.filter(id => !stats.get(id)?.stat).length,
     categories: categories.map(c => ({ id: c.id, title: c.title, count: c.ids.size })),
-    games: ids.map(id => normalizeGame(games.get(id), stats.get(id), oldById.get(id), categories)),
+    games: ids.map(id => normalizeGame(games.get(id), stats.get(id), oldById.get(id), categories, { rankComparable })),
   }, config);
 }

@@ -141,7 +141,7 @@ function renderSnapshot() {
   renderFilters();
   const times = snapshot?.games.map(g => g.rankUpdatedAt).filter(Boolean) || [];
   const rankTime = times.length ? stamp(Math.max(...times) * 1000) : '接口未返回';
-  $('about-snapshot').textContent = snapshot ? `本次获取：${stamp(snapshot.fetchedAt)}；官方排名字段刷新时间：${rankTime}。目录 ${format(snapshot.expectedCount)} 款，已获取 ${format(snapshot.games.length)} 款，缺少统计 ${snapshot.missingStats || 0} 款。${snapshot.previousAt ? `热度变化的对照快照：${stamp(snapshot.previousAt)}。` : '首次获取还没有热度变化的对照快照。'}` : '尚无快照。';
+  $('about-snapshot').textContent = snapshot ? `本次获取：${stamp(snapshot.fetchedAt)}；试玩人气榜刷新时间：${rankTime}。目录 ${format(snapshot.expectedCount)} 款，已获取 ${format(snapshot.games.length)} 款，缺少统计 ${snapshot.missingStats || 0} 款。${snapshot.previousAt ? `热度变化的对照快照：${stamp(snapshot.previousAt)}。` : '首次获取还没有热度变化的对照快照。'}` : '尚无快照。';
   $('cache-size').textContent = snapshot ? `当前快照约 ${(new Blob([JSON.stringify(snapshot)]).size / 1024 / 1024).toFixed(1)} MB` : '暂无作品缓存';
   $('clear-cache').disabled = !snapshot || state.loading;
   setLoading(state.loading);
@@ -182,10 +182,14 @@ function renderRanking() {
   let hint = metrics[state.metric].hint;
   if (state.metric === 'official' && state.snapshot) {
     const times = state.snapshot.games.map(g => g.rankUpdatedAt).filter(Boolean);
-    hint = `接口返回 ${format(selection.rankedCount)} 款名次${times.length ? ` · 排名刷新 ${stamp(Math.max(...times) * 1000)}` : ''}。不是评审成绩。`;
+    hint = `TapTap 试玩人气榜的前 ${format(selection.rankedCount)} 名${times.length ? ` · 排名刷新 ${stamp(Math.max(...times) * 1000)}` : ''}。按助力数排序，试玩满 10 分钟才能助力；名次取接口原值，不是评审成绩。`;
   }
   if (state.metric === 'growth' && state.snapshot?.previousAt) hint = `热度变化：${stamp(state.snapshot.previousAt)} → ${stamp(state.snapshot.fetchedAt)}。新出现的作品不参与增量排名。`;
-  if (state.metric !== 'growth' && selection.hasPrev && state.snapshot?.previousAt) hint += ` 名次变动对比 ${stamp(state.snapshot.previousAt)} 的同一筛选结果，新＝上次未上榜。`;
+  if (state.metric !== 'growth' && selection.hasPrev && state.snapshot?.previousAt) {
+    hint += selection.rankComparable === false
+      ? ' 上一份榜单的名次按热度排，与现在的人气榜口径不同，本轮不显示名次变动。'
+      : ` 名次变动对比 ${stamp(state.snapshot.previousAt)} 的同一筛选结果，新＝上次未上榜。`;
+  }
   $('metric-description').textContent = hint;
   $('rating-filter').hidden = state.metric !== 'rating';
   if (state.metric !== 'rating') reviewDropdown.close();
@@ -207,8 +211,8 @@ function renderRanking() {
     const favorite = state.favorites.includes(game.id);
     const labels = game.categories.map(id => state.snapshot.categories.find(c => c.id === id)?.title).filter(Boolean);
     const meta = labels.filter(label => !['手游', 'PC游戏'].includes(label)).slice(0, 2);
-    const sub = state.metric === 'growth' ? `当前热度 ${format(game.heat)}` : state.metric === 'official' ? `活动热度 ${format(game.heat)}` : '';
-    return `<tr><td class="rank-cell ${game.place <= 3 ? 'top-rank' : ''}"><div class="rank-stack"><span class="rank-place">${game.place <= 9 ? '0' : ''}${game.place}</span>${rankDeltaMarkup(game)}</div></td><td><div class="game-info">${imageMarkup(game)}<div class="game-text"><a class="game-title" href="https://www.taptap.cn/app/${game.id}" target="_blank" rel="noopener noreferrer" title="${escape(game.title)}">${escape(game.title)}</a><div class="game-meta">${meta.map(label => `<span class="tag">${escape(label)}</span>`).join('')}<span class="game-id">${game.id}</span></div></div></div></td><td class="number-cell primary-value ${state.metric === 'growth' && game.growth > 0 ? 'positive' : ''}">${metricValue(game)}${sub ? `<span class="metric-sub">${sub}</span>` : ''}</td><td class="number-cell detail-cell">${format(game.fans)}</td><td class="number-cell detail-cell"><span class="score-value">${game.rating === null ? '<span class="muted">暂无评分</span>' : `<span>✦</span>${game.rating.toFixed(1)}`}</span><span class="metric-sub">${format(game.reviews)} 条评价</span></td><td><button class="favorite-toggle" data-favorite="${game.id}" aria-label="${favorite ? '取消收藏' : '收藏'} ${escape(game.title)}" aria-pressed="${favorite}" title="${favorite ? '取消收藏' : '收藏'}">${favorite ? '★' : '☆'}</button></td></tr>`;
+    const sub = state.metric === 'growth' ? `当前热度 ${format(game.heat)}` : state.metric === 'official' ? `${compact(game.heat)}人试玩` : '';
+    return `<tr><td class="rank-cell ${game.place <= 3 ? 'top-rank' : ''}"><div class="rank-stack"><span class="rank-place">${game.place <= 9 ? '0' : ''}${game.place}</span>${rankDeltaMarkup(game)}</div></td><td><div class="game-info">${imageMarkup(game)}<div class="game-text"><a class="game-title" href="https://www.taptap.cn/app/${game.id}" target="_blank" rel="noopener noreferrer" title="${escape(game.title)}">${escape(game.title)}</a><div class="game-meta">${meta.map(label => `<span class="tag">${escape(label)}</span>`).join('')}<span class="game-id">${game.id}</span></div></div></div></td><td class="number-cell primary-value ${state.metric === 'growth' && game.growth > 0 ? 'positive' : ''}">${metricValue(game)}${sub ? `<span class="metric-sub">${sub}</span>` : ''}</td><td class="number-cell detail-cell">${game.votes ? format(game.votes) : '<span class="muted">—</span>'}</td><td class="number-cell detail-cell">${format(game.fans)}</td><td class="number-cell detail-cell"><span class="score-value">${game.rating === null ? '<span class="muted">暂无评分</span>' : `<span>✦</span>${game.rating.toFixed(1)}`}</span><span class="metric-sub">${format(game.reviews)} 条评价</span></td><td><button class="favorite-toggle" data-favorite="${game.id}" aria-label="${favorite ? '取消收藏' : '收藏'} ${escape(game.title)}" aria-pressed="${favorite}" title="${favorite ? '取消收藏' : '收藏'}">${favorite ? '★' : '☆'}</button></td></tr>`;
   }).join('');
   $('table-shell').hidden = !visible.length;
   $('empty-state').hidden = Boolean(visible.length);
@@ -219,7 +223,7 @@ function renderRanking() {
     let description = `当前筛选：${$('filter-summary').textContent}。试试放宽条件，或重置筛选。`;
     if (!state.snapshot) { title = '让本届作品，在这里涌现'; description = canRefresh() ? '点击「获取本届数据」，从本机获取榜单。' : '已发布榜单暂时无法载入。请重新打开页面，或按上方说明在本地运行。'; }
     else if (state.metric === 'growth' && !state.snapshot.previousAt) { title = '下一次更新，就能看见变化'; description = '首次快照已保存。稍后再次更新，即可比较两次获取之间的热度变化。'; }
-    else if (state.metric === 'official' && !selection.rankedCount) { title = '接口尚未返回这一分组的名次'; description = '可以切换到活动热度、关注或评分榜，查看本地计算的排序。'; }
+    else if (state.metric === 'official' && !selection.rankedCount) { title = '这一分组还没有作品进入人气榜前 100'; description = '试玩人气榜只公开前 100 名。可以切换到活动热度、关注或评分榜，查看本地计算的排序。'; }
     else if (state.metric === 'rating' && !selection.rankedCount) { title = '暂无符合评价数门槛的作品'; description = '降低最低评价数，或查看其他作品分组。'; }
     $('empty-title').textContent = title;
     $('empty-description').textContent = description;

@@ -141,3 +141,12 @@ test('评分榜与官方名次榜的名次变动遵守各自的规则', () => {
   ] };
   assert.deepEqual(selectGames(growth, { metric: 'growth' }).rows.map(g => [g.id, g.rankStatus, g.rankDelta]), [['1', 'up', 1], ['2', 'down', -1]]);
 });
+
+test('口碑口径不一致的旧快照不画人气榜升降箭头', () => {
+  const old = { games: [
+    { ...games[0], id: '1', officialRank: 3, prev: { heat: 1, fans: 1, rating: 8, reviews: 10, officialRank: 6, growth: 0 }, prevRankComparable: false },
+    { ...games[0], id: '2', officialRank: 10, prev: { heat: 1, fans: 1, rating: 8, reviews: 10, officialRank: 2, growth: 0 }, prevRankComparable: true },
+  ] };
+  assert.deepEqual(selectGames(old, { metric: 'official' }).rows.map(g => [g.id, g.rankStatus]), [['1', null], ['2', 'down']]);
+  assert.ok(csv([{ ...games[0], place: 1, votes: 12 }]).includes('"12"'));
+});
